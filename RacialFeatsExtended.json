@@ -940,7 +940,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Unarmored Defense.} When not wearing armor, your AC is calculated as 13 + your Constitution modifier",
+            "{@b Unarmored Defense.} When not wearing armor, your AC is calculated as 13 + your Constitution modifier. You can use a {@item shield} and still gain this benefit.",
             "{@b Earth Shaper.} You learn the {@spell mold earth|xge} cantrip if you don't already know it. Constitution is your spellcasting ability for this spell."
           ]
         }
@@ -1140,7 +1140,106 @@
       ],
       "ability": [
         {
-          "con":  1
+          "con": 1
+        }
+      ]
+    },
+    {
+      "name": "Psi Disciple",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "Gith"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your psionic training is more advanced than most Gith. Choose one cantrip from the Sorcerer spell list. You can cast this spell without any components. Additionally, choose two 1st-leveled spells from the Sorcerer spell list. You can cast each at will without expending a spell slot and without any components. Once you cast either spell this way, you cannot do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
+      ]
+    },
+    {
+      "name": "Silver Sword Adept",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "Gith (Githyanki)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You learned to respect a silver sword as a priceless relic and a work of art. You have learned how to channel the force of your will with one of these relics in your hands.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Githyanki Sword Training.} You gain proficiency with the greatsword.",
+            "{@b Silvered Expertise.} When using a silvered weapon, add +1 to both attack and damage rolls."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "str": 1
+        }
+      ]
+    },
+    {
+      "name": "Zerth Adept",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "Gith (Githyanki)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You have full knowledge of the Unbroken Circles of Zerthimon, and followed all his teaching and principles with discipline. Your senses are enhanced and you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Githzerai Blindfold Training.} You have blindsight, perceiving your surrounding without relying on sight, within a radius of 20 feet. While in your blindsight radius, any negative effect of the Blinded condition is ignored."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "str": 1
+        }
+      ]
+    },
+    {
+      "name": "Advanced Psionics",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "Gith"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You have recieved avdvanced training in psionic abilities. You gain the following benefits.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Psi Warrior.} As a bonus action on your turn, you can imbue your weapons with psionic force. For 1 minute, you can choose one damage roll per turn and add 1d4 psychic damage to the total damage. After using this feature, you must complete a long rest before you can use it again.",
+            "{@b Blurring Reality. You learn the {@spell blur} spell. You can cast this spell as part of your Psionics trait. You regain the ability to do so after a long rest. }"
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "str": 1
         }
       ]
     },
