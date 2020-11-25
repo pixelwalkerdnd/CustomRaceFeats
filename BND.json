@@ -22,7 +22,7 @@
 	"feat": [
 		{
 			"name": "Sky Warden",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -55,8 +55,76 @@
 			]
 		},
 		{
+			"name": "Aerial Scout",
+			"source": "RacialFeatsExpandedFedor",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "aarakocra"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Specializing in scouting in the skies, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Keen Senses.} You gain proficiency with the Perception skill if you're not already proficient. Additionally, You have advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+						"{@b Quick Glance.} You can use the Search action as a free action."
+					]
+				}
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			]
+		},
+		{
+			"name": "Avian Warfare",
+			"source": "RacialFeatsExpandedFedor",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "aarakocra"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You've trained in Aarakocra combat techniques, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Dive Attack}. If you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
+						"{@b Flyby.} You don't provoke an opportunity attack when youfly out of an enemy's reach.",
+						"{@b Improved Talons.} Your talons gain the finesse property."
+					]
+				}
+			]
+		},		
+		{
+			"name": "Mastery of Air",
+			"source": "RacialFeatsExpandedFedor",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "aarakocra"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Your time in the skies has given you not just an understanding of the flow of the winds, but some limited control of them. You learn the {@spell Gust|xge} cantrip and the {@spell Gust of Wind} spell. You may cast Gust of Wind without expending a spell slot or material components. Wisdom is your spellcasting ability for both spells. Once you have cast Gust of Wind with this feature, you must complete a short or long rest before you can use it again."
+			]
+		},
+		{
 			"name": "Angelic Protection",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -71,8 +139,80 @@
 			]
 		},
 		{
+			"name": "Divine Recovery",
+			"source": "RacialFeatsExpandedFedor",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "aasimar"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You learn to utilize divine healing to assist you and your party. You gain the following benefits:",
+				{
+					"type": "list",
+						"items": [
+							"{@b Divine Touch.} Your Healing Hands feature can be used asa bonus action, and you can use it with a range of 30 feet.",
+							"{@b Heavenly Influence.} Whenever a creature you can seeregains Hit Points, you can use your reaction for them toregain additional Hit Points equal to your Charisma orWisdom modifier, whichever is higher. You can use thisfeature once, and regain the ability to do so whenever youfinish a short or long rest."
+						]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Child of the Divine",
+			"source": "RacialFeatsExpandedFedor",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "aasimar"
+						}
+					],			
+					"subrace": [
+						{
+							"name": "protector"
+						}
+					]
+				}
+			],
+			"entries": [
+				"You learn to utilize divine healing to assist you and your party. You gain the following benefits:",
+				{
+					"type": "list",
+						"items": [
+							"{@b Divine Aid.} Whenever you fail a saving throw, you can choose to succeed instead. Once you use this feature, you cannot do so again until you finish a long rest"
+						]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"cha",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
 			"name": "Well-Rested",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -106,7 +246,7 @@
 		},
 		{
 			"name": "Firbolg Beast Magic",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -122,7 +262,7 @@
 		},
 		{
 			"name": "Djinn Heritage",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -156,7 +296,7 @@
 		},
 		{
 			"name": "Dao Heritage",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -190,7 +330,7 @@
 		},
 		{
 			"name": "Efreet Heritage",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -224,7 +364,7 @@
 		},
 		{
 			"name": "Marid Heritage",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -258,7 +398,7 @@
 		},
 		{
 			"name": "Like a Boss",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -285,7 +425,7 @@
 		},
 		{
 			"name": "Mountain's Endurance",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -318,7 +458,7 @@
 		},
 		{
 			"name": "Uphold the Legion",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -352,7 +492,7 @@
 		},
 		{
 			"name": "Master of Mimicry",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -385,7 +525,7 @@
 		},
 		{
 			"name": "Urd Wings",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -412,7 +552,7 @@
 		},
 		{
 			"name": "Touch of Sess'inek",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -446,7 +586,7 @@
 		},
 		{
 			"name": "Tanarukk Blood",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -480,7 +620,7 @@
 		},
 		{
 			"name": "Feline Grace",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -508,7 +648,7 @@
 		},
 		{
 			"name": "Tortle Protector",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -542,7 +682,7 @@
 		},
 		{
 			"name": "Triton Deep Magic",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
@@ -558,7 +698,7 @@
 		},
 		{
 			"name": "Serpent Form",
-			"source": "DnDBeyond",
+			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
 					"race": [
