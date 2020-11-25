@@ -482,7 +482,7 @@
         {
           "race": [
             {
-              "name": "changling"
+              "name": "changeling"
             }
           ]
         }
@@ -510,7 +510,7 @@
         {
           "race": [
             {
-              "name": "changling"
+              "name": "changeling"
             }
           ]
         }
@@ -538,7 +538,7 @@
         {
           "race": [
             {
-              "name": "changling"
+              "name": "changeling"
             }
           ]
         }
@@ -560,6 +560,210 @@
       ]
     },
     {
+      "name": "Bursting Breath",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "dragonborn"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are one of the rare dragonborn who have learned to shape and condense their breath weapon before unleashing it. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Exploding Breath.} You can use your breath weapon to shoot a ball of energy from your mouth that explodes in an area of effect blast. It has a range of 60 feet and the explosion has a radius of 10 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breath of the Ancients",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "dragonborn"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The blood of dragons runs purer in your veins than other dragon born. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Empowered Breath.} The damage dice for your Breath Weapon are now d8s.",
+            "{@b Ancestral Breath.} You can spend a bonus action on your turn to call on the latent power of the ancient dragon blood in your veins. Your breath weapon becomes a Recharge (6) ability rather than having one use per short or long rest. After you use your dragon breath, roll {@dice 1d6} on the beginning of your next turn. On a 6, your breath weapon instantly recharges. Your breath weapon can continue to recharge in this way for 10 minutes. Once you've used your breath in this way, your Breath Weapon cannot be used again until you take a long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Natural Artisan",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "dwarf, elf, gnome"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Being a part of a race with some of the finest artisans in the world, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Right Tool for the Job.} You gain profieciency with two artisan's tools of your choice.",
+            "{@b Tool Master.} Choose one artisan's tool of which you're proficient in. Your proficiency bonus is doubled for any ability checkmade with this tool."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "int": 1
+        }
+      ]
+    },
+    {
+      "name": "Master of the Forge",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "dwarf"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        " You can create masterwork weapons and armor when forging an item. A masterwork item costs five times as much as an ordinary item of its type and has the following properties, unless it is a magical item.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Masterwork Weapon.} You have +1 on attack rolls made with a masterwork weapon.",
+            "{@b Masterwork Armor.} Light masterwork armor is hardened and gains +1 AC. Medium masterwork armor does not produce as much noise, its wearer does not have disadvantage on Stealth rolls. Heavy masterwork armor is properly weighted, and grants advantage to its wearer on checks and saves made to avoid being knocked prone, or to resist being pushed.",
+            "{@b Magical Forge Master.} Upon reaching 6th level, you can use a magic item as a base for Master Weapon and Masterwork Armor at an additional two times the cost and still gain the benefits on the item."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Duergar Work Ethic",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "dwarf (duergar)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Endless work and toil is the Duergar way of life. You can continue onward, ignoring the aches and pains of your tired body until you cannot go on. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Tireless.} You suffer no penalities from the first and second level of exhuastion. Upon reaching the third level of exhuastion or higher, you now suffer from level 1 and 2 exhuastion effects.",
+            "{@b Right Back to It.} You can spend hit dice on a long rest to recover from an additional level of exhaustion. The number of dice that can be spent is 1/4 of your character level rounded down."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Of the Seelie",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "elf (eladrin)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "With your connection to the courts of the Feywild, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Improved Fey Step.} You can use your Fey Step feature twice before needing torest.",
+            "{@b Short Seasons.} You can change your season during a short rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aquatic Elf Magic",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "elf (sea)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You learn the magic of sea, from where you and your people come from. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Sea Magic.} You learn the {@spell shape water|xge} cantrip. You also learn the {@spell create or destroy water} and {@spell fog cloud} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raven's Gift",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "elf (shadar-kai)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Blessed by a deity of death, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Undying Devotee.} You have advantage on death saving throws.",
+            "{@b Not Their Time.} You learn the {@spell Spare the Dying} cantrip."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "con": 1
+        }
+      ]
+    },
+    {
       "name": "Firbolg Beast Magic",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -573,6 +777,54 @@
       ],
       "entries": [
         "Your connection to animals deepens. You learn the {@spell speak with animals} spell and can cast it at will, without expending a spell slot. You also learn the {@spell animal friendship} and {@spell beast sense} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+      ]
+    },
+    {
+      "name": "Firbolg Beast Magic",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "firbolg"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your connection to animals deepens. You learn the {@spell speak with animals} spell and can cast it at will, without expending a spell slot. You also learn the {@spell animal friendship} and {@spell beast sense} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+      ]
+    },
+    {
+      "name": "Firbolg Rage",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "firbolg"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your people are anything but confrontational, but when all else fails, a primal force awakens within you and destruction will be wrough at any cost. As a bonus action, you may enter a Firbolg Rage which lasts up to a minute, until you are unconscious, or until you end it on a subsequent turn as abonus action.. While in this state, you deal double the damage you normally would, but take double damage as well."
+      ]
+    },
+    {
+      "name": "Steward of Nature",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "firbolg"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You find that you are able to draw upon the strength of the land and its natural energies. The land grants you its power so that you may protect it. You learn the {@spell druidcraft} cantrip. When selecting this feat, you also learn one 1st level druid spell of your choice and one 2nd level druid spell of your choice. You always have these spells prepared and do not need to consume material components or spell slots to castthem. You may cast the 1st level spell two times before youmust complete a long rest to recharge your uses of it. The 2nd level spell may only be cast once before you mustcomplete a long rest to recharge its use. Wisdom is your spell casting modifer for this spell (see Druid class for spell DCs)."
       ]
     },
     {
@@ -1006,7 +1258,7 @@
             }
           ]
         }
-      ], 
+      ],
       "entries": [
         "You master more of the magic of elemental air and water. You learn the {@spell create or destroy water} spell and can cast it as a 1st level spell at will, without expending a spell slot. You also learn {@spell warding wind|phb} and {@spell water breathing}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells."
       ]
