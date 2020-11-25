@@ -140,7 +140,7 @@
 			]
 		},
 		{
-			"name": "Child of the Divine",
+			"name": "Divine Recovery",
 			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
@@ -148,21 +148,18 @@
 						{
 							"name": "aasimar"
 						}
-					],
-					"subrace": [
-						{
-							"name": "protector"
-						}
-					],
+					]
 				}
 			],
 			"entries": [
 				"You learn to utilize divine healing to assist you and your party. You gain the following benefits:",
-				"type": "list",
-					"items": [
-						"{@b Divine Touch.} If you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
-						"{@b Heavenly Influence.} Whenever a creature you can seeregains Hit Points, you can use your reaction for them toregain additional Hit Points equal to your Charisma orWisdom modifier, whichever is higher. You can use thisfeature once, and regain the ability to do so whenever youfinish a short or long rest.",
-					]
+				{
+					"type": "list",
+						"items": [
+							"{@b Divine Touch.} Your Healing Hands feature can be used asa bonus action, and you can use it with a range of 30 feet.",
+							"{@b Heavenly Influence.} Whenever a creature you can seeregains Hit Points, you can use your reaction for them toregain additional Hit Points equal to your Charisma orWisdom modifier, whichever is higher. You can use thisfeature once, and regain the ability to do so whenever youfinish a short or long rest."
+						]
+				}
 			],
 			"ability": [
 				{
@@ -177,7 +174,7 @@
 			]
 		},
 		{
-			"name": "Divine Recovery",
+			"name": "Child of the Divine",
 			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
 				{
@@ -185,16 +182,22 @@
 						{
 							"name": "aasimar"
 						}
+					],			
+					"subrace": [
+						{
+							"name": "protector"
+						}
 					]
 				}
 			],
 			"entries": [
 				"You learn to utilize divine healing to assist you and your party. You gain the following benefits:",
-				"type": "list",
-					"items": [
-						"{@b Divine Touch.} If you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
-						"{@b Heavenly Influence.} Whenever a creature you can seeregains Hit Points, you can use your reaction for them toregain additional Hit Points equal to your Charisma orWisdom modifier, whichever is higher. You can use thisfeature once, and regain the ability to do so whenever youfinish a short or long rest.",
-					]
+				{
+					"type": "list",
+						"items": [
+							"{@b Divine Aid.} Whenever you fail a saving throw, you can choose to succeed instead. Once you use this feature, you cannot do so again until you finish a long rest"
+						]
+				}
 			],
 			"ability": [
 				{
