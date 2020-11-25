@@ -83,47 +83,6 @@
 			]
 		},
 		{
-			"name": "Avian Warfare",
-			"source": "RacialFeatsExpandedFedor",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "aarakocra"
-						}
-					]
-				}
-			],
-			"entries": [
-				"You've trained in Aarakocra combat techniques, gaining the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"{@b Dive Attack}. If you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
-						"{@b Flyby.} You don't provoke an opportunity attack when youfly out of an enemy's reach.",
-						"{@b Improved Talons.} Your talons gain the finesse property."
-					]
-				}
-			]
-		},
-		
-		{
-			"name": "Mastery of Air",
-			"source": "RacialFeatsExpandedFedor",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "aarakocra"
-						}
-					]
-				}
-			],
-			"entries": [
-				"Your time in the skies has given you not just an understanding of the flow of the winds, but some limited control of them. You learn the {@spell Gust|xge} cantrip and the {@spell Gust of Wind} spell. You may cast Gust of Wind without expending a spell slot or material components. Wisdom is your spellcasting ability for both spells. Once you have cast Gust of Wind with this feature, you must complete a short or long rest before you can use it again."
-			]
-		},
-		{
 			"name": "Angelic Protection",
 			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
