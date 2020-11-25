@@ -55,34 +55,6 @@
 			]
 		},
 		{
-			"name": "Aerial Scout",
-			"source": "RacialFeatsExpandedFedor",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "aarakocra"
-						}
-					]
-				}
-			],
-			"entries": [
-				"Specializing in scouting in the skies, you gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"{@b Keen Senses.} You gain proficiency with the Perception skill if you're not already proficient. Additionally, You have advantage on Wisdom (Perception) checks that rely on hearing or sight.",
-						"{@b Quick Glance.} You can use the Search action as a free action."
-					]
-				}
-			],
-			"ability": [
-				{
-					"dex" : 1
-				}
-			]
-		},
-		{
 			"name": "Angelic Protection",
 			"source": "RacialFeatsExpandedFedor",
 			"prerequisite": [
