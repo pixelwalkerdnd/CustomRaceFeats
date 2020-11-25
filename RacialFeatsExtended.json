@@ -2,17 +2,17 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "RacialFeatsExpandedFedor",
-				"abbreviation": "RFE",
-				"full": "Racial Feats Expanded",
+				"json": "DnDBeyond",
+				"abbreviation": "Bnd",
+				"full": "D&D Beyond",
 				"authors": [
-					"Feodor Romanenkov"
+					"Adam Bradford"
 				],
 				"convertedBy": [
-					"Senort11"
+					"TheGiddyLimit"
 				],
 				"version": "1.0.0",
-				"url": "https://www.dmsguild.com/product/314753/Racial-Feats-Expanded",
+				"url": "https://rpg.rem.uz/Dungeons%20%26%20Dragons/D%26D%205th%20Edition/Core/XGE%20Bonus%20-%20Expanded%20Racial%20Feats.pdf",
 				"targetSchema": "1.1.2"
 			}
 		],
@@ -22,7 +22,7 @@
 	"feat": [
 		{
 			"name": "Sky Warden",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -56,7 +56,7 @@
 		},
 		{
 			"name": "Angelic Protection",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -72,7 +72,7 @@
 		},
 		{
 			"name": "Well-Rested",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -106,7 +106,7 @@
 		},
 		{
 			"name": "Firbolg Beast Magic",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -122,7 +122,7 @@
 		},
 		{
 			"name": "Djinn Heritage",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -156,7 +156,7 @@
 		},
 		{
 			"name": "Dao Heritage",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -190,7 +190,7 @@
 		},
 		{
 			"name": "Efreet Heritage",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -224,7 +224,7 @@
 		},
 		{
 			"name": "Marid Heritage",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -258,7 +258,7 @@
 		},
 		{
 			"name": "Like a Boss",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -285,7 +285,7 @@
 		},
 		{
 			"name": "Mountain's Endurance",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -318,7 +318,7 @@
 		},
 		{
 			"name": "Uphold the Legion",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -352,7 +352,7 @@
 		},
 		{
 			"name": "Master of Mimicry",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -385,7 +385,7 @@
 		},
 		{
 			"name": "Urd Wings",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -412,7 +412,7 @@
 		},
 		{
 			"name": "Touch of Sess'inek",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -446,7 +446,7 @@
 		},
 		{
 			"name": "Tanarukk Blood",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -480,7 +480,7 @@
 		},
 		{
 			"name": "Feline Grace",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -508,7 +508,7 @@
 		},
 		{
 			"name": "Tortle Protector",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -542,7 +542,7 @@
 		},
 		{
 			"name": "Triton Deep Magic",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
@@ -558,7 +558,7 @@
 		},
 		{
 			"name": "Serpent Form",
-			"source": "RacialFeatsExpandedFedor",
+			"source": "DnDBeyond",
 			"prerequisite": [
 				{
 					"race": [
