@@ -862,6 +862,34 @@
       ]
     },
     {
+      "name": "Djinn Legacy",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "genasi (air)  "
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your connection to the Elemental Plane of Air is heightened. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Lighter than Air.} You gain a flying speed of 15 feet. To use this speed, you cannot be wearing medium or heavy armor and you cannot be encumbered.",
+            "{@b Strong Gust.} You learn the @{spell gust|xge} cantrip if you don't already know it. Constitution is your spell casting ability for it. Additionally, whenever you push a creature with this spell, they get pushed 10 feet, rather than 5, and you can push them in any direction."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "dex": 1
+        }
+      ]
+    },
+    {
       "name": "Dao Heritage",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -896,7 +924,41 @@
       ]
     },
     {
-      "name": "Efreet Heritage",
+      "name": "Dao Legacy",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "genasi (earth)  "
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your connection to the Elemental Plane of Earth is heightened. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Unarmored Defense.} When not wearing armor, your AC is calculated as 13 + your Constitution modifier",
+            "{@b Earth Shaper.} You learn the {@spell mold earth|xge} cantrip if you don't already know it. Constitution is your spellcasting ability for this spell."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Efreeti Heritage",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -914,6 +976,40 @@
           "items": [
             "You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot.",
             "Your darkvision has a radius of 120 feet"
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Efreeti Legacy",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "genasi (fire)  "
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your connection to the Elemental Plane of Fire is heightened. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Elemental Fire.} You can cast the {@spell flame blade} and {@spell scorching ray} spells each without expending a spell slot. Once you cast a spell this way, you cannot do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+            "{@b Natural Heat.} Due to your radiating heat, you gain resistance to cold damage."
           ]
         }
       ],
@@ -960,6 +1056,91 @@
             ],
             "amount": 1
           }
+        }
+      ]
+    },
+    {
+      "name": "Marid Legacy",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "genasi (water)  "
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your connection to the Elemental Plane of Water is heightened. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Watery Core.} You gain advantage on saving throws for effects that deal fire damage.",
+            "{@b Water Cannon.} You can use your action to shoot water in a 30-foot line that is 5 feet wide. Each creature in that line must make a Dexterity saving throw (DC = 8 + your proficiency modifier + your Constitution modifier). On a failure, a target takes {@dice 2d8} bludgeoning damage and, if it is Huge or smaller, is pushed up to 10 feet away from you and knocked prone. On a success, a target takes half the bludgeoning damage, but is neither pushed nor knocked prone."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Draw Element",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "genasi (water)  "
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "By focusing your energies, you are able to enhance your elemental powers. Depending on your subrace, you gain one of the following abilities as detailed on the Draw Element Table below. After using one of these features, you must finish a long rest before using that feature again.",
+        {
+          "type": "table",
+          "caption": "Draw Element Table",
+          "colLabels": [
+            "Genasi Subrace",
+            "Ability"
+          ],
+          "colStyles": [
+            "col-4 text-center",
+            "col-8 text-center "
+          ],
+          "rows": [
+            [
+              "{@b Air.}",
+              "As a bonus action, you lighten your step with a touch of wind. Your speed is doubled until the end of your turn."
+            ],
+            [
+              "{@b Earth.}",
+              "As a reaction when you would take damage, your body hardens to protect you. You gain resistance to all damage types except psychic until the start of your next turn."
+            ],
+            [
+              "{@b Fire.}",
+              "As a bonus action, you hone your attention on your task much like a flame is focused to a white hot point. Your proficiency bonus is tripled for one skill of your choice for the next 1 minute."
+            ],
+            [
+              "{@b Water.}",
+              "As a bonus action, you are able to center yourself to prepare for your next strike. You gain advantage on attack rolls you make this turn."
+            ]
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "con":  1
         }
       ]
     },
