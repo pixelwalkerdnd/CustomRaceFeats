@@ -2079,13 +2079,105 @@
         }
       ],
       "entries": [
-        "You've spent long hours in solitude meditating. Your body and mind are in perfect sync affording you incredible fortitude and health. You gain the following benefits::",
+        "You've spent long hours in solitude meditating. Your body and mind are in perfect sync affording you incredible health and fortitude. You gain the following benefits::",
         {
           "type": "list",
           "items": [
             "{@b Mind-Body Connection.} You may add half of your Wisdom modifier rounded down to your maximum health when you gain a level. This effect is retroactively applied to all levels you have gained so far.",
             "{@b Strong of Spirit and Flesh.} When you are forced to make a Wisdom or Constitution saving throw but before being told whether or not you made the save, you may use your reaction to expend 1 of your hit dice and add the value rolled to your saving throw."
           ]
+        }
+      ]
+    },
+    {
+      "name": "Warcaller",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "minotaur"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Honing your natural talents as a Minotaur, you gain thefollowing benefits. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Labyrinthine Recall.} You gain proficiency in the History skill if you're not proficient already (if you are, gain expertise instead), and you can perfectly recall any path you have traveled.",
+            "{@b Deathbellow.} You release a bellowing roar that terrifies the feeble-minded. As a bonus action, each creature of your choice within 15 feet of you that can hear you must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or take psychic damage equal to your Constitution modifier and become frightened of you for until the start of your next turn. Creatures that succeed this saving throw still take damage but do not become frightened. Once you use this feature, you cannot do so again until you finish a long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Battle Horns",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "minotaur"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You've honed your ability to use your ferocious horns in battle. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Critical Gore.} When making an attack roll with your horns, you criticall hit on a 19 or 20.",
+            "{@b Deep Wounds.} On a critical hit with your horns, the targe must make a Constitution saving throw at the end of each of its following turns or the creature takes necrotic damage equal to your level + your proficiency bonus. The DC for this save is 10 + your Consistution modifier. The condition ends after 3 successful saves or 1 minute.",
+            "{@b Blood Lust} Whenever you reduce a creature to 0 hitpoints or you land a critical strike against a creature, you may add additional damage equal your Strength bonus to all damage rolls you make thereafter until the end of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resident of the Underdark",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "minotaur"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your ancestors lived far underground in labyrinthine mazes devoid of light. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Darkvision.} You can see in dim light within 30 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only Shades of Gray.",
+            "{@b Molded by Darkness.} You have advantage on any checks made to navigate dark, underground spaces."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
         }
       ]
     },
