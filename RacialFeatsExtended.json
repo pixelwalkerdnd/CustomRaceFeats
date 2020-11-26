@@ -1211,7 +1211,7 @@
       ],
       "ability": [
         {
-          "str": 1
+          "dex": 1
         }
       ]
     },
@@ -1233,7 +1233,7 @@
           "type": "list",
           "items": [
             "{@b Psi Warrior.} As a bonus action on your turn, you can imbue your weapons with psionic force. For 1 minute, you can choose one damage roll per turn and add 1d4 psychic damage to the total damage. After using this feature, you must complete a long rest before you can use it again.",
-            "{@b Blurring Reality. You learn the {@spell blur} spell. You can cast this spell as part of your Psionics trait. You regain the ability to do so after a long rest. }"
+            "{@b Blurring Reality}. You learn the {@spell blur} spell. You can cast this spell as part of your Psionics trait. You regain the ability to do so after a long rest."
           ]
         }
       ],
@@ -1241,6 +1241,60 @@
         {
           "str": 1
         }
+      ]
+    },
+    {
+      "name": "Tree Hopper",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "gnome (forest)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You have spent most of your life in the forest. Moving around amongst the trees is second nature to you. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You may use your action to climb a tree and move from it to another tree within 50 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement (10 feet of movement total). If you have no movement left, you appear within 5 feet of the tree you entered. You can use this transportation ability twice, regaining expended uses on a short or long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gnomish Transformation",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "gnome"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You may use your action to transform into the shape of a mushroom, a small shrub or a bright wooden figurine of a gnome. While in this form you cannot speak or perform any actions, and your speed becomes 0. You gain advantage on stealth checks made to hide in natural terrain while in this form. You can end this effect as a reaction."
+      ]
+    },
+    {
+      "name": "Jewelcraft",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "gnome (rock)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You gain proficiency in jeweler's tools. When you are working with jeweler's tools you can work twice as quickly on nonmagical items. In addition, you are able to craft common and uncommon magic items that are amulets, beads, eyes, gems, rings, or necklaces. Common magic items require 50 gp of raw materials (or more depending on GM discretion), 1 exotic material, and take 8 hours to craft. Uncommon magic items require 200 gp of raw materials, 2 exotic materials and 2 workweeks to craft. You may have up to three magic items you have crafted using this trait at one time. You can dissassemble a magic item you have crafted using this trait to salvage raw materials worth half its crafting price. Disassembling a magic item you have crafted in this way takes 8 hours."
       ]
     },
     {
