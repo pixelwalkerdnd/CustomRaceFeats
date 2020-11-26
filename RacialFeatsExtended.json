@@ -2332,76 +2332,8 @@
         {
           "choose": {
             "from": [
-              "dex",
-              "con"
-            ],
-            "amount": 1
-          }
-        }
-      ]
-    },
-    {
-      "name": "One With the Pack",
-      "source": "RacialFeatsExpandedFedor",
-      "prerequisite": [
-        {
-          "race": [
-            {
-              "name": "shifter"
-            }
-          ]
-        }
-      ],
-      "entries": [
-        "Becoming more animalistic, you gain the following benefits:",
-        {
-          "type": "list",
-          "items": [
-            "{@b Pack Tactics.} While shifted, you have advantage on attack rolls as long as the creature you're attacking is within 5 feet of an ally and the ally isn't incapacitated.",
-            "{@b Savage Attacks.} When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
-          ]
-        }
-      ],
-      "ability": [
-        {
-          "choose": {
-            "from": [
               "con",
               "dex"
-            ],
-            "amount": 1
-          }
-        }
-      ]
-    },
-    {
-      "name": "True Transformation",
-      "source": "RacialFeatsExpandedFedor",
-      "prerequisite": [
-        {
-          "race": [
-            {
-              "name": "shifter"
-            }
-          ]
-        }
-      ],
-      "entries": [
-        "The blood of the werebeast in your ancestry runs thicker in your veins than other shifters. You gain the following benefits:",
-        {
-          "type": "list",
-          "items": [
-            "{@b Wereblooded.} When you take this feat, your Shifting ability lasts for 10 minutes rather than 1 minute. When you reach 8th level, it lasts for 1 hour. Regardless of the duration of your Shifting ability, you may choose to concentrate on it as if you were concentrating on a spell to extend its duration. Whenever you take damage, you must make concentration checks as normal. If you fail a concentration check or the duration extends to double its normal duration, your Shifting ability ends."
-          ]
-        }
-      ],
-      "ability": [
-        {
-          "choose": {
-            "from": [
-              "con",
-              "dex",
-              "str"
             ],
             "amount": 1
           }
@@ -2459,7 +2391,7 @@
       ],
       "ability": [
         {
-          "con": 1
+          "str": 1
         }
       ]
     },
@@ -2498,7 +2430,7 @@
         {
           "race": [
             {
-              "name": "shifter (swiftstride)"
+              "name": "shifter (wildhunt)"
             }
           ]
         }
