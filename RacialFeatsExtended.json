@@ -1423,19 +1423,8 @@
         {
           "type": "list",
           "items": [
-            "{@b You Can Do Better.} Whenever you make two attacks in a row (not necessarily on the same turn), you can choose to roll {@dice 1d12} and add it to the attack and damage rolls of the second attack. You can use this feature after you roll, but before your DM tells you if you succeed or not. If your second attack does at least double the damage of the first, this ability instantly recharges. Once you use this feature, you cannot do so again until you finish a short or long rest."
+            "{@b You Can Do Better.} Whenever you make two attacks in a row (not necessarily on the same turn), you can choose to roll {@dice 1d6} and add it to the attack and damage rolls of the second attack. You can use this feature after you roll, but before your DM tells you if you succeed or not. If your second attack does at least double the damage of the first, this ability instantly recharges and the damage die increases by one size. You can chain together multiple uses of this ability assuming you keep doubling damage. Once you use this feature, you cannot do so again until you finish a short or long rest."
           ]
-        }
-      ],
-      "ability": [
-        {
-          "choose": {
-            "from": [
-              "str",
-              "con"
-            ],
-            "amount": 1
-          }
         }
       ]
     },
@@ -1483,7 +1472,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Disappearing Act.} You can attempt to hide even when you are only partially obscured by a creature that is your size or larger and you gain advantage on the stealth roll."
+            "{@b Disappearing Act.} You can attempt to hide even when you are only partially obscured by a creature that is your size or larger.",
+            "{@b Improved Stealth.} You gain advantage on Dexterity (Stealth) rolls when you are partially or fully obscured."
           ]
         }
       ]
@@ -1531,6 +1521,28 @@
             "{@b Good Eye.} You have advantage on Wisdom (Perception) and Intelligence (Investigation) made to detect the presence of secret doors.",
             "{@b Better Reactions.} You have advantage on saving throws to avoid traps.",
             "{@b Eager Adventurer} Your brash eagerness to take on quests that will take you to new places is endearing to those who ask for your help. You have advantage on Wisdom (Insight) and Charisma (Persuasion) checks when trying to gather information from people who have given you a task about said task."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brutish Skill",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "half-orc"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The mix of your human ingenuity and savage orc strength makes your combat techniques more effective. You gain the following benefit:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Unrefined Prowess.} When you deal damage with a melee weapon, you can add your proficiency bonus to the damage roll."
           ]
         }
       ]
