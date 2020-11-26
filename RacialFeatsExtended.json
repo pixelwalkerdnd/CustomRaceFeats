@@ -1462,7 +1462,76 @@
       ],
       "ability": [
         {
-         "str":  1
+          "str": 1
+        }
+      ]
+    },
+    {
+      "name": "Improved Lightfoot Stealth",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "halfling (lightfoot)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You can slip away from sight with ease in crowds whether that's a crowd of gnomes or goliaths. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Disappearing Act.} You can attempt to hide even when you are only partially obscured by a creature that is your size or larger and you gain advantage on the stealth roll."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Improved Stout Toughness",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "halfling (stout)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your ability to shrug off poison and infection is great even among stout halflings. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Strong Immune Response.} You have advantage on saving throws against poison and disease, and you have resistance to poison damage and damaging symptoms of diseases.",
+            "{@b Built Tough.} You gain half proficiency in Constitution Saving Throws. If you are already proficient, then add an additional half your proficiency bonus rounded down to your Constitution Saving Throws."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adventuring Spirit",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "halfling"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You can't resist the call to adventure and you've been on a few in your time. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Good Eye.} You have advantage on Wisdom (Perception) and Intelligence (Investigation) made to detect the presence of secret doors.",
+            "{@b Better Reactions.} You have advantage on saving throws to avoid traps.",
+            "{@b Eager Adventurer} Your brash eagerness to take on quests that will take you to new places is endearing to those who ask for your help. You have advantage on Wisdom (Insight) and Charisma (Persuasion) checks when trying to gather information from people who have given you a task about said task."
+          ]
         }
       ]
     },
