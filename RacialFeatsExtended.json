@@ -1310,11 +1310,60 @@
         }
       ],
       "entries": [
-        "You are accustomed to using others to avoid being attacked. You gain the following benefits:",
+        "You are accustomed to using others as a distraction to avoid being attacked. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can't do so again until you finish a short or long rest."
+            "{@b Goblin Tactics.} When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can't do so again until you finish a short or long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "dex": 1
+        }
+      ]
+    },
+    {
+      "name": "Malicious Tactics",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "goblin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are accustomed to using others as a shield to avoid being attacked. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Goblin Manuevering.} When a creature you can see targets you with an attack, you can use your reaction to choose another creature within 5 feet of it. You and that creature swap places, and the chosen creature becomes the target instead. You can use this feature a number of times equal to your proficiency modifier, and regain all uses whenever you finisha long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Reveler",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "goblin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your fighting style has developed in the madness and chaos of all-out goblin war. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Goblin Frenzy.} For each creature you deal damage to beyond the first with melee weapon attacks, you deal {@dice 1d6} additional damage to it (the 2nd creature you damage takes {@dice 1d6} extra, the third takes {@dice 2d6} extra etc.)."
           ]
         }
       ],
