@@ -2010,6 +2010,86 @@
       ]
     },
     {
+      "name": "Tusker",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "loxodan"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You've learned to use your tusks as a dangerous weapon, gaining the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Tusk Weapon.} Your tusks become natural weapons, with which you can make unarmed attacks with. When you attack with your tusks, you deal piercing damage equal to 1d6 + your Strength modifier, rather than the regular damage for an unarmed strike.",
+            "{@b Thick Hide.} Your Natural Armor is now calculated as 13 + your Constitution modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "War Elephant",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "loxodan"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You've learned that peace and tranquility isn't always an option. You are a Loxodan Warrior trained in the art of war. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Battle Charge.} Whenever you move at least 20ft straight toward a target you may make a goring attack with your tusks as a bonus action dealing {@dice 1d6} piercing + your Strength modifier. If it hits and the target fails a Dexterity (Acrobatics) or a Strength (Athletics) Saving Throw (the DC of which is calculated as 8 + your proficiency bonus + your Strength modifier) it is knocked prone.",
+            "{@b Strong Trunk.} When using your trunk to make an unarmed strike, you deal {@dice 1d4} + your Strenght modifier damage instead of the normal unarmed strike damage. Additionally, you gain profiency with Strength (Athletics) checks when using your trunk to grapple. If you already have proficiency in Athletics, then you gain expertise instead. Further still, your trunk can now lift a number of pounds equal to 10 times your Strength score."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mindful Fortitude",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "loxodan"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You've spent long hours in solitude meditating. Your body and mind are in perfect sync affording you incredible fortitude and health. You gain the following benefits::",
+        {
+          "type": "list",
+          "items": [
+            "{@b Mind-Body Connection.} You may add half of your Wisdom modifier rounded down to your maximum health when you gain a level. This effect is retroactively applied to all levels you have gained so far.",
+            "{@b Strong of Spirit and Flesh.} When you are forced to make a Wisdom or Constitution saving throw but before being told whether or not you made the save, you may use your reaction to expend 1 of your hit dice and add the value rolled to your saving throw."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Tanarukk Blood",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
