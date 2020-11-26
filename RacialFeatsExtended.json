@@ -1195,7 +1195,7 @@
         {
           "race": [
             {
-              "name": "Gith (Githyanki)"
+              "name": "Gith (Githzerai)"
             }
           ]
         }
@@ -1911,6 +1911,40 @@
             "from": [
               "dex",
               "int"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Trap Knowledge",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kobold"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Unlike many of the other monstrous races, your kind isclever and has an understanding of how complex machineryworks. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Kobold Trapper.} You have advantage on any ability check to identify, locate, or understand traps. You instantly find and understand any trap made by kobolds.",
+            "{@b Trap Evasion.} If a trap forces you to make a saving throw to avoid damage, you take 1/2 damage on a failed saving throw and no damage on a successful saving throw."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis"
             ],
             "amount": 1
           }
