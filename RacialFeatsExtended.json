@@ -2487,6 +2487,111 @@
       ]
     },
     {
+      "name": "Simic Mutation",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "simic hybrid"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "As an apex of evolution, you gain the following benefits:",
+        "You can take this feat more than once, choosing a new animal enhancement each time.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Mutagenic.} You gain one Simic Hybrid animal enhancement you don't already have."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "con": 1
+        }
+      ]
+    },
+    {
+      "name": "Volatile Subject",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "simic hybrid"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The scientists who created you have thrown caution to the wind. Your Animal Enhancements are stronger than than other Simics but the magic used to enhance you is extremely volatile. As a bonus action, you can activate your expirimental abilities which last for 1 hour. All animal enhancements you currently have are affected. At the end of the hour, roll on the Wild Magic Surge table with a -3 modifier and subract a further amount equal to the number of Animal Enhancements you currently have (minimum result is 1). Once you use this ability, you cannot use it again until you complete a short or long rest. These additional abilities are detailed in the Experimental Enhancements table.",
+        {
+          "type": "table",
+          "caption": "Experimental Enhancements Table",
+          "colLabels": [
+            "Animal Enhancement",
+            "Experitmental Enhancement"
+          ],
+          "colStyles": [
+            "col-4 text-center",
+            "col-8 text-center "
+          ],
+          "rows": [
+            [
+              "{@b Manta Glide.}",
+              "{@b Experimental Fins.} You gain the benefits of the {@spell feather fall} passively while using Manta Glide. Additionally, you can move horizontally 10 feet for every 1 foot you fall."
+            ],
+            [
+              "{@b Nimble Climber.}",
+              "{@b Chameleon Climbing Apparatus.} You gain an additional 10 feet of climbing speed. Additionally, you gain the ability to climb any solid surface without having to make any skill checks. Finally, if you remain still while climbing or against a wall for at least 6 seconds or take no movement on your turn in combat your body shifts colors to match the surface you are climbing. You are considered lightly obscured in bright light, heavily obscured in dim light, and invisible and silent in darkness as long as you move slowly and stay within 5 feet of a wall or vertical surface (in combat this means 10 feet or less per turn). Darkvision does not affect your level of obscurment (eg. if you are in a dim light within 60 feet of a creature with darkvision, you are considered heavily obscured to them and not lightly obscured even though they see in dim light as if it is bright light. If you were instead in darkness, they cannot percieve you at all with non-magical means even though they see in darkness as dim light)."
+            ],
+            [
+              "{@b Underwater Adaption.}",
+              "{@b Enhanced Sea Adaptation} Your gain an additional 10 feet of swim speed. You learn the {@spell shape water|xge} cantrip while Experimental Enhancements are active. You gain advantage on saving throws against ice and water based magic. Finally, you gain advantage on attack rolls (including spell attacks) while swimming."
+            ],
+            [
+              "{@b Grappling Appendages.}",
+              "{@b Lengthened Muscle Fibres.} The reach of your appendages increases to 10 feet. You gain proficiency in Strength (Athletic) checks when using your appendages. If you already have proficiency, then you gain expertise instead. While a creature is grappled by your grappling appendages, they take 1d4 + your Strength modifier bludgeoning damage at the end of each of their turns where they remain grappled. When you take the shove action on a creature grappled by your appendage and succeed in the Strength (Athletics) contest, the distance they are shoved increases to 15 feet and you can shove them in any direction (including straight into the air) and they fall prone."
+            ],
+            [
+              "{@b Carapace.}",
+              "{@b Improved Shell.} You gain resistance to nonmagical bludgeoning, piercing, and slashing damage. You gain one Carapace Die which is a d12 which goes away when Experimental Enhancements ends. You can use the Carapace Die to reduce the damage of any damage roll made against you. If you reduce the damage below 0 points, you gain 1 AC for every damage point mitigated below 0. You retain this AC until you take damage or Experimental Enhancements ends. You gain a Carapace Die every time you roll for inititive up to a maximum of 1 total."
+            ],
+            [
+              "{@b Acid Spit.}",
+              "{@b Improved Noxious Glands.} Any creature within 5 feet of you that hits you with a melee attack must make a Constitution save against your Acid Spit DC or take {@dice 1d4} poison damage. This damage increase to {@dice 2d4} at 11th level and {@dice 3d4} at 17th level. Additionally, your melee attacks deal {@dice 1d4} acid damage. This damage increases to {@dice 1d8} at level 11, and to {@dice 1d10} at 17th level."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combine Amalgam",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "simic hybrid"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are simultaneously both vedalken and elvish. You can the following benefit:",
+        "You can take this feat more than once, choosing a new a racial feat each time.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Perfect Hybrid.} When you take this feat, you choose to gain either an Elven racial feat or a Vedalken racial feat. You may take this feat multiple times, choosing a new racial feat each time."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Feline Grace",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
