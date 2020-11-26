@@ -1649,7 +1649,124 @@
       ]
     },
     {
-      "name": "Master of Mimicry",
+      "name": "Short Lived",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "human"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The life of a human is nasty, brutish, and short but you'll be damned if you don't make your mark. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Heroic Sacrifice.} If you are dropped down to 0 hitpoints, you may immediately take a turn. During this turn you may move closer to the creature that dropped you to 0 hit points, you may use a bonus action to Dash, you may take the Attack action against the creature that dropped you to 0 hitpoints, you may cast a spell that is a spell attack, and you can use any class abilities that target either yourself or the creature that dropped you 0 hit points. Any attack or damaging spell you use on this turn automatically crits. At the end of your turn, you fall unconscious, fail two death saving throws automatically, and must immediately make a death saving throw with disadvantage. This ability cannot be used again.",
+            "{@b Heroic Triumph.} If you survive making a Heroic Sacrifice, you immediately recieve an Ability Score Improvement and feat of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Party Link",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kalashtar"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are able to bridge the psychic gap between other beings minds. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Hive Mind Communication.} Your Mind Link capabilities extend further through your connection to the plane of dreams. Each long rest, you may designate up to 9 willing creatures that are within 60ft of you. Each of those creatures can communicate telepathically with each other and you as long as the communicants are on the same plane of existence as you. You may end this effect early as an action."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pyschic Link",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kalashtar"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Being able to tap into other's psyche, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Impenetrable Mind.} You gain immunity to psychic damage.",
+            "{@b Mind Meld.} Whenever a creature you can see within 30 feet of you is forced to make a Wisdom saving throw, you may use your reaction to give them advantage or disadvantage (your choice) on that roll. Once you use this feature, you cannot do so again until you finish a short or long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kalashtar Mind Tricks",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kalashtar"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are able to subtly influence others minds for your benefit. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Wave of the Hand.} When making a Charisma based skill check, you may choose to make the check with advantage. You must complete a long rest before you can use this ability again."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "cha": 1
+        }
+      ]
+    },
+    {
+      "name": "Imitation Expert",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -1682,6 +1799,66 @@
       ]
     },
     {
+      "name": "Master of Mimicry",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kenku"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your imitation of others is uncanny and near perfect. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@ Voice Actor.} You have advantage on Charisma (Deception) checks when using your Mimicry trait. Additionally, any subsequent Charisma based skill checks using the same voice also have advantage."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "cha": 1
+        }
+      ]
+    },
+    {
+      "name": "Shrouded Deceiver",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kenku"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You know how to manipulate sounds from the shadows to your advantage in combat. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@ Sound of Darkness.} You may take an Action on your turn to emit an unsettling or distracting sound of your choice. Any creature that can hear but not see you must make a Wisdom saving throw or suffer disadvantage on attack rolls and saving throws until the beginning of your next turn (the DC of which is calculated as 5 + your Charisma (Deception) modifier). Once you use this ability, you may not use it again until you take a short or long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
       "name": "Urd Wings",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -1698,13 +1875,45 @@
         {
           "type": "list",
           "items": [
-            "You gain a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
+            "You gain a flying speed of 20 feet. To use this speed, you can't be wearing medium or heavy armor."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inventor",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "kobold"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your natural creativity allows you to craft a variety of doo-dads and thinga-ma-bobs. Your creations last for 24 hours before they fall to pieces or otherwise become useless. When you complete a short rest, you can create one of the following inventions (it is assumed you can scavengewhat you need):",
+        {
+          "type": "list",
+          "items": [
+            "{@b Acid.} You create a small flask of acid which can be thrown at a foe. You are considered proficient with it and it has a range of 5/20 feet. If it hits a creature, it deals 2d6 acid damage to it.",
+            "{@b Alchemist's Fire.} You concoct a small amount of highly volatile liquid. You are considered proficient with it and it has a range of 5/20 feet. If it hits a creature, it deals 1d4 fire damage to it and it takes 1d4 fire damage at the start of each of its turns. A creature may end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+            "{@b Basket of Centipedes.} You have gathered enough centipedes in a container to create a reasonable threat. You may throw the container of centipedes to a space within 20 feet. A swarm of insects (centipedes) with 11hit points emerges from the remnants of your containerand rolls initiative. At the end of each of the swarm's turns, there's a 50% chance it disperses.",
+            "{@b Scorpion on a Stick.} You create a makeshift poison spear with a scorpion, spider, or other venomous insect tied tothe end. It is a melee weapon you are proficient with. If you hit a creature with it, it deals 1 damage + your Strength modifier and the target must make a DC 9 Constitution saving throw, taking 1d8 poison damage on a failed save, or half as much damage on a successful one.",
+            "{@b Wasp Nest in a Bag.} You have gathered enough wasps in a container to create a reasonable threat. You may throw the container of wasps to a space within 20 feet. A swarm of insects (wasps) with 11 hit points emerges from the remnants of your container and rolls initiative. At the end of each of the swarm's turns, there's a 50% chance it disperses"
           ]
         }
       ],
       "ability": [
         {
-          "dex": 1
+          "choose": {
+            "from": [
+              "dex",
+              "int"
+            ],
+            "amount": 1
+          }
         }
       ]
     },
