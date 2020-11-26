@@ -780,22 +780,6 @@
       ]
     },
     {
-      "name": "Firbolg Beast Magic",
-      "source": "RacialFeatsExpandedFedor",
-      "prerequisite": [
-        {
-          "race": [
-            {
-              "name": "firbolg"
-            }
-          ]
-        }
-      ],
-      "entries": [
-        "Your connection to animals deepens. You learn the {@spell speak with animals} spell and can cast it at will, without expending a spell slot. You also learn the {@spell animal friendship} and {@spell beast sense} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
-      ]
-    },
-    {
       "name": "Firbolg Rage",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -2527,7 +2511,7 @@
         }
       ],
       "entries": [
-        "The scientists who created you have thrown caution to the wind. Your Animal Enhancements are stronger than than other Simics but the magic used to enhance you is extremely volatile. As a bonus action, you can activate your expirimental abilities which last for 1 hour. All animal enhancements you currently have are affected. At the end of the hour, roll on the Wild Magic Surge table with a -3 modifier and subract a further amount equal to the number of Animal Enhancements you currently have (minimum result is 1). Once you use this ability, you cannot use it again until you complete a short or long rest. These additional abilities are detailed in the Experimental Enhancements table.",
+        "The scientists who created you have thrown caution to the wind. Your Animal Enhancements are stronger than than other Simics but the magic used to enhance you is extremely unstable. As a bonus action, you can activate your expirimental abilities which last for 1 hour. All animal enhancements you currently have are affected. At the end of the hour, roll on the Wild Magic Surge table. The {@dice 1d20} roll to determine the severity table to roll on is made with a -3 modifier and a further amount equal to the number of Animal Enhancements you currently have is subtracted from the result (minimum result is 1). Once you use this ability, you cannot use it again until you complete a long rest. These additional abilities are detailed in the Experimental Enhancements table.",
         {
           "type": "table",
           "caption": "Experimental Enhancements Table",
@@ -2536,8 +2520,8 @@
             "Experitmental Enhancement"
           ],
           "colStyles": [
-            "col-4 text-center",
-            "col-8 text-center "
+            "col-2 text-left",
+            "col-10 text-left "
           ],
           "rows": [
             [
@@ -2546,7 +2530,7 @@
             ],
             [
               "{@b Nimble Climber.}",
-              "{@b Chameleon Climbing Apparatus.} You gain an additional 10 feet of climbing speed. Additionally, you gain the ability to climb any solid surface without having to make any skill checks. Finally, if you remain still while climbing or against a wall for at least 6 seconds or take no movement on your turn in combat your body shifts colors to match the surface you are climbing. You are considered lightly obscured in bright light, heavily obscured in dim light, and invisible and silent in darkness as long as you move slowly and stay within 5 feet of a wall or vertical surface (in combat this means 10 feet or less per turn). Darkvision does not affect your level of obscurment (eg. if you are in a dim light within 60 feet of a creature with darkvision, you are considered heavily obscured to them and not lightly obscured even though they see in dim light as if it is bright light. If you were instead in darkness, they cannot percieve you at all with non-magical means even though they see in darkness as dim light)."
+              "{@b Chameleon Climbing Apparatus.} You gain an additional 10 feet of climbing speed. Additionally, you gain the ability to climb any solid surface without having to make any skill checks. Finally, if you remain still while climbing or against a wall for at least 6 seconds or take no movement on your turn in combat your body shifts colors to match the surface behind you. You are considered lightly obscured in bright light, heavily obscured in dim light, and invisible and silent in darkness as long as you move slowly and stay within 5 feet of a wall or vertical surface (in combat this means 10 feet or less per turn). Darkvision does not affect your level of obscurment (eg. if you are in a dim light within 60 feet of a creature with darkvision, you are considered heavily obscured to them and not lightly obscured even though they see in dim light as if it is bright light. If you were instead in darkness, they cannot percieve you at all with non-magical means even though they see in darkness as dim light)."
             ],
             [
               "{@b Underwater Adaption.}",
