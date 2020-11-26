@@ -2307,6 +2307,254 @@
       ]
     },
     {
+      "name": "One With the Pack",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Becoming more animalistic, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Pack Tactics.} While shifted, you have advantage on attack rolls as long as the creature you're attacking is within 5 feet of an ally and the ally isn't incapacitated.",
+            "{@b Savage Attacks.} When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "One With the Pack",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Becoming more animalistic, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Pack Tactics.} While shifted, you have advantage on attack rolls as long as the creature you're attacking is within 5 feet of an ally and the ally isn't incapacitated.",
+            "{@b Savage Attacks.} When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "True Transformation",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The blood of the werebeast in your ancestry runs thicker in your veins than other shifters. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Wereblooded.} When you take this feat, your Shifting ability lasts for 10 minutes rather than 1 minute. When you reach 8th level, it lasts for 1 hour. Regardless of the duration of your Shifting ability, you may choose to concentrate on it as if you were concentrating on a spell to extend its duration. Whenever you take damage, you must make concentration checks as normal. If you fail a concentration check or the duration extends to double its normal duration, your Shifting ability ends."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "dex",
+              "str"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thicker Hide",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter (beasthide)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You draw even greater amounts of strength and stability from the beast within. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Superior Beasthide Shift.} Whenever you shift, the number of d6's you roll to determine your additional temporary health is your character level divided by 4 rounded down (minimum of 1d6). While you have temporary hitpoints from shifting, you gain resistance you piercing, slashing, and bludgeoning damage from nonmagical sources."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "con": 1
+        }
+      ]
+    },
+    {
+      "name": "The Alpha",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter (longtooth)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are particulary ferocious and aggressive for a Longtooth. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Pack Leader.} While shifted, if a creature you can see that is within 5 feet of you makes an attack on an ally, you can use your reaction to make an opportunity attack. If the attack hits, your ally gains +2 AC for the purposes of determing whether or not the triggering attack hits.",
+            "{@b Ferocious Bite.}  Your fang unarmed weapon deals {@dice 2d6} + your Strength modifier when you reach 8th level and {@dice 3d6} + your Strength modifier when you reach 15th level."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "con": 1
+        }
+      ]
+    },
+    {
+      "name": "Aspect of the Cheetah",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter (swiftstride)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You put the swift in swiftstride. Your speed and grace have to be seen to be believed. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Superior Grace.} You gain expertise in Dexterity (Acrobatics) checks.",
+            "{@b Superior Speed.} Your walking speed increases by 5 additional feet. While shifted, your walking speed increases an additional 5 feet (at this point a standard character with 30 feet base walking speed now has 50 feet walking speed), you may Dash as a bonus action, and can now move up to half your movement speed if an enemy ends its turn within 5 feet of you. As normal, this movement does not incur opportunity attacks."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "dex": 1
+        }
+      ]
+    },
+    {
+      "name": "Predatory Instinct",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter (swiftstride)"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are an exceptional hunter even for a Wildhunt shifter. Only the most exceptional of quarries have a chance to escape once you're on their trail. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Group Tracking.} When you use you Mark the Scent trait, you can mark up 3 creatures instead of 1.",
+            "{@b Natural Vigilence.} You cannot be surprised by wild beasts, monstrosities, or plants. Additionally, while outside of town, you can add your proficiency bonus to initiative rolls.",
+            "{@b Expert Hunter.} While shifted, you gain expertise in Wisdom skill checks in addtion to the usual advantage."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "wis": 1
+        }
+      ]
+    },
+    {
+      "name": "True Transformation",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "shifter"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The blood of the werebeast in your ancestry runs thicker in your veins than other shifters. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Wereblooded.} When you take this feat, your Shifting ability lasts for 10 minutes rather than 1 minute. When you reach 8th level, it lasts for 1 hour. Regardless of the duration of your Shifting ability, you may choose to concentrate on it as if you were concentrating on a spell to extend its duration. Whenever you take damage, you must make concentration checks as normal. If you fail a concentration check or the duration extends to double its normal duration, your Shifting ability ends."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "dex",
+              "str"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
       "name": "Feline Grace",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
