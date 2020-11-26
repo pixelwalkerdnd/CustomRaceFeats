@@ -2096,6 +2096,8 @@
           "items": [
             "{@b Orc Rage.} You can spend a bonus action on your turn to Rage which follows the same rules as Barbarian Rage and gains benefits from levels in the Barbarian class. When you enter a Rage using this ability, you suffer a level of exhaustion when the Rage ends.",
             "{@b Aggressive Charge.} When you use your Aggressive racial trait and move at least 20 feet in a straight line on your turn, you may make a melee weapon attack or take a shove action. Additionally, your aggressive trait gives you 10 more feet of additional movement."
+          ]
+        }
       ]
     },
     {
