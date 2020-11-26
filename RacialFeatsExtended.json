@@ -1952,6 +1952,64 @@
       ]
     },
     {
+      "name": "Reptilian Hunter",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "lizardfolk"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your kind is suited to hunting. Finding your prey is a simple task for you and, you are unlikely to let it escape. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Expert Tracking.} You have advantage on Wisdom (Perception) checks to locate a creature and on Wisdom (Survival) checks to follow its tracks.",
+            "{@b Marked for Dinner.} You learn the spell {@spell Hunter's Mark} and can cast it as a level 1 spell without expending a spell slot. When you case the spell in this way, you cannot do so again until you complete a short or long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cold Blooded Predator",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "lizardfolk"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You have embraced the primal predator within you. You follow the bestial and savage path of your ancient ancestors. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Apex Predator.} Instead of choosing two abilities to gain proficiency in for your Hunter's Lore feature, you gain proficiency in all of the listed skills.",
+            "{@b Ferocious Bite.} Your Bite ability deals {@dice 2d6} + your Strength modifier whenyou reach 8th level and {@dice 3d6} + your Strength modifierwhen you reach 15th level.",
+            "{@b Primal Hunger.} Instead of only being to use Hungry Jaws once per short or long rest, you can now use it a number of times equal to your proficiency modifier divided by 2 rounded down."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Tanarukk Blood",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -1964,7 +2022,7 @@
         }
       ],
       "entries": [
-        "Through fell magic or an ancestor, you are touched by the corruptive power of Baphomet. You gain the following benefits:",
+        "Through fell magic or an ancestor, you are touched by the corruptive power of an Arch Demon. You gain the following benefits:",
         {
           "type": "list",
           "items": [
@@ -1983,6 +2041,61 @@
             "amount": 1
           }
         }
+      ]
+    },
+    {
+      "name": "Hand of Gruumsh",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "orc"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Born for battle, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Relentless Endurance.} When you are reduced to 0 hitpoints but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish along rest.",
+            "{@b Savage Attacks.} When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raw Orcish Aggression",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "orc"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Born for battle, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Orc Rage.} You can spend a bonus action on your turn to Rage which follows the same rules as Barbarian Rage and gains benefits from levels in the Barbarian class. When you enter a Rage using this ability, you suffer a level of exhaustion when the Rage ends.",
+            "{@b Aggressive Charge.} When you use your Aggressive racial trait and move at least 20 feet in a straight line on your turn, you may make a melee weapon attack or take a shove action. Additionally, your aggressive trait gives you 10 more feet of additional movement."
       ]
     },
     {
