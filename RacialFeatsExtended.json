@@ -1582,6 +1582,73 @@
       ]
     },
     {
+      "name": "Line Commander",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "hobgoblin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You learned to lead front line troops experty. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Frontline Tactics.} When you are within 5 feet of an ally of your choice, both you and your ally gain +2 to attack rolls. This benefit extends to all allies on the straight line formed by you and your selected ally (think shieldwall).",
+            "{@b No Openings.} Whenever you or an ally who are recieving the Frontline Tactics benefit gets hit with a melee attack, all allies within 5 feet that have the Frontline Tactics benefit may use their reaction to make an opportunity attack."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Natural Leadership",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "hobgoblin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "As a hobgoblin you are familiar with the art of war and have an innate understanding of leading troops in batte. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Commanding Officer.} As an action, you may have a single ally within 60 feet take the dodge action, disengage action, attack action, or move up to their movement speed."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
       "name": "Master of Mimicry",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
