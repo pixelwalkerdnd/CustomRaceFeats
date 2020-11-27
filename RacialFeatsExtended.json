@@ -459,7 +459,7 @@
           "type": "list",
           "items": [
             "{@b Unicorn Bloodline.} You can choose to grow a small unicorn horn on your forehead, or a larger horn if you already have one.",
-            "{@b Fey Magic.} You learn the cantrip {@spell Druidcraft}, and the spells {@spell Entangle} and {@spell Shield of Faith}, both of which you can cast once without expending a spell slot. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat (Intelligence or Wisdom)."
+            "{@b Fey Magic.} You learn the cantrip {@spell Druidcraft}, and the spells {@spell Entangle} and {@spell Shield of Faith}, both of which you can cast once without expending a spell slot. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat (Intelligence or Wisdom)."
           ]
         }
       ],
@@ -493,7 +493,7 @@
           "items": [
             "Being able to shapeshift at will, you are able to subtly change before an enemy, unsettling them",
             "When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you.",
-            "Once you use this trait, you can’t use it again until you finish a short or long rest."
+            "Once you use this trait, you can't use it again until you finish a short or long rest."
           ]
         }
       ],
@@ -521,7 +521,7 @@
           "type": "list",
           "items": [
             "{@b Anti-magic Visage.} You have advantage on Saving Throw agains divination effects.",
-            "{@b Unscryable.} You can cast the {@spell Nondetection} spell on yourself once without expending a spell slot or material components once. Once you cast the spell in this way, you can’t cast the spell in this way again until you finish a long rest."
+            "{@b Unscryable.} You can cast the {@spell Nondetection} spell on yourself once without expending a spell slot or material components once. Once you cast the spell in this way, you can't cast the spell in this way again until you finish a long rest."
           ]
         }
       ],
@@ -2182,7 +2182,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Darkvision.} You can see in dim light within 30 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only Shades of Gray.",
+            "{@b Darkvision.} You can see in dim light within 30 feet of you as if it were bright light, and in Darkness as if it were dim light. You can't discern color in Darkness, only Shades of Gray.",
             "{@b Molded by Darkness.} You have advantage on any checks made to navigate dark, underground spaces."
           ]
         }
@@ -2604,6 +2604,56 @@
       ]
     },
     {
+      "name": "Feline Agility",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "tabaxi"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You're even more athletic than the typical Tabaxi. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Your base long jump is up to 25 feet and your base high jump is up to 15 feet, with or without a running start.",
+            "If you would take damage from falling, treat the damageas if you fell 20 feet less."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "dex": 1
+        }
+      ]
+    },
+    {
+      "name": "Fickle Fascination",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "tabaxi"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your interests change from day to day, but when something captures your attention, even fleetingly, you dive head first into it. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "After taking a long rest, choose any skill and gainproficiency with it until the end of your next long rest. Ifyou are already proficient with a skill, you may choose togain expertise with the skill (add your proficiency bonus twice instead of once)."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Tortle Protector",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -2638,6 +2688,52 @@
       ]
     },
     {
+      "name": "Snapping Tortle",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "tortle"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your mouth is shaped different than other Tortles and can snap bones in two. You don't shy away from fights and this has made you tough. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Hardened Shell.} Your shell grants you an additional natural +1 to your AC. Additionally, whenever a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. Once you use this feature you cannot to so again until you finish a short or long rest.",
+            "{@b Hardened Shell.} Your bite is a natural weapon, with which you can make unarmed strikes as a bonus action. It deals damage equal to 1d6 + your Strength modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arcane Shell",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "tortle"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your mouth is shaped different than other Tortles and can snap bones in two. You don't shy away from fights and this has made you tough. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Warding Sigil.} During a long rest you can spend one hour retracing award for the shield spell on your shell. Once done youcan cast the spell once without expanding a spell slot ormaterial components, once used in this way the wardneeds to be retraced before it can be used again.",
+            "{@b Hardened Mind.} When using your Shell Defense your wards also grantyou advantage on Wisdom and Charisma savingthrows."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Triton Deep Magic",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -2651,6 +2747,284 @@
       ],
       "entries": [
         "You master more of the magic of elemental air and water. You learn the {@spell create or destroy water} spell and can cast it as a 1st level spell at will, without expending a spell slot. You also learn {@spell warding wind|phb} and {@spell water breathing}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells."
+      ]
+    },
+    {
+      "name": "Maelstrom Sentinel",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "triton"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are a keeper of the depths, ever vigilant for threats against the sea and mighty is your fury. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Deep Sea Combat.} While you are submerged in water, you have advantage on all attacks of opportunity",
+            "{@b Electric Eel.} You learn the {@spell Shocking Grasp} cantrip.",
+            "{@b Elemental Fury.} You learn the {@spell Control Water}, {@spell Watery Sphere|xge}, and {@spell Call Lightning} spells, each which you can cast once without expending a spell slot. If you dot have access to the required spell slot for the spell, you must be submerged in water to cast it or your character must be of 5th level or higher. You regain the ability to cast these spells in this way when you finish a long rest. Charisma is your spellcasting ability for these spells."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reflective Scales",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "triton"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Shimmering scales cover your body and do more than help you look flashy as you move about. These scales allow you to turn harmful effects back upon their source or onto other threats nearby. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Reflect Magic.} As a reaction whenever you take fire, lightning, or cold damage, you can have another creature of your choice within 60 feet take the same amount and type of damage."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "cha",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rigorous Precision",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "vedalken"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Every imperfection is a chance for improvement and resting just gets in the way of the pursuit. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Improved Tireless Precision.} You are proficient in one skill and one tool of your choice. Whenever you make anability check with the chosen skill or tool, roll a {@dice 1d4} and add the number rolled to the check's total. Additionally, choose one skill or tool with which your Tireless Precision or this feat affects. You instead roll {@dice 2d4} and add it to ability checks made with the chosen skill or tool."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Expert Precision",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "vedalken"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You have lasered your focus onto a single task and achieved mastery. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Expertise.} Choose one of your proficiencies in Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand or a tool. Your proficiency bonus is doubled for any abilitycheck you make that uses the chosen proficiency.",
+            "{@b Transferable Knowledge.} Your Tireless Precision die becomes a {@dice 1d6}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Primal Blood",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "vedalken"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Sometimes progress requires going back to the beginning. You've altered your body to be more in line your animal ancestors. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Aquatic Ancestry.} You can now breathe underwater for an unlimited duration.",
+            "{@b Sea Sight.} You gain Darkvision. You can see in dim light within 60 feet as if it were bright light, and in Darkness as if it were dim light. You can't discern color in Darkness, only Shades of Gray. This bonus is doubled underwater."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Envoy Augmentations",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "warforged"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Receiving permanent specialised enhancements, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Specialized Design.} You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.",
+            "{@b Integrated Tool.} Choose one tool you're proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Envoy Augmentations",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "warforged"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Receiving permanent scout-like enhancements, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Swift.} Your walking speed increases by 5 feet",
+            "{@b Light Step.} When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace. (See chapter 8 of the Player's Handbookfor information about travel pace.)",
+            "{@b Skirmisher.} You have advantage on Initiative rolls. If you would already have advantage, you instead go first in the initiative order."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Envoy Augmentations",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "warforged"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Receiving permanent juggernaut-like enhancements, you gain the following features:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Iron Fists.} When you hit with an unarmed strike, you can deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike.",
+            "{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+            "{@b Juggernaut.} You gain an additional permanent +1 to your AC, but you have disadvantage on Dexterity saving throws. After finishing a short or long rest you can choose to ignore this feature until you finish your next rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Overdrive",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "warforged"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You can force your energy consumption to surge for a brief moment. You gain the following benefit:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Overdrive.} You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. At the end of your turn, you immediately gain a level of exhaustion."
+          ]
+        }
       ]
     },
     {
@@ -2681,6 +3055,62 @@
             "from": [
               "int",
               "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Venomous Serpent",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "yuan-ti pureblood"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Your venom flows more easily than other Yuan-Ti. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@ Potent Venom.} When you make an attack using Charisma, Intelligence, or Dexterity, you may reroll any damage dice that land on 1 and you must use the new number. Your attacks with Charisma, Intelligence, andDexterity are considered critical strikes on a roll of 19 or 20.",
+            "{@ Venomous River.} When you land a critical strike on a creature using Charisma, Intelligence, or Dexterity, the creature must make a saving throw of DC 8 + your proficiency bonus + the modifier you used for the attack. On a failed save, the creature becomes Poisoned and takes {@dice 1d8} Poison damage. This damage increases to {@dice 2d8} at 8th level and to {@dice 3d8} at 15th level. On a successful save, the creature is not Poisoned and takes half the Poison damage"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Serpentine Stride",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "yuan-ti pureblood"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You can use your serpentine like body to maneuver around very quickly. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@ Speedy Slither.} Your walking speed increases by 5 feet.",
+            "{@ Hunting Sprint.} When you sprint, add an additional half of your movement speed (rounded down) to the total speed."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex"
             ],
             "amount": 1
           }
