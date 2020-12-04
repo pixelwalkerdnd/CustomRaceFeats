@@ -2654,6 +2654,40 @@
       ]
     },
     {
+      "name": "Flames of Hell",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "tiefling"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You didn't mearly adopt the flames of hell. You were born in it, molded by it. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Hotter than Hell.} When you roll Fire damage for a spell you cast, you can reroll any roll of 1 on the Fire damage dice, but you must use the new roll, even if it is another 1",
+            "{@ Diabolic Shield.} Whenever you cast a spell that deals Fire damage and you have not moved, you cancause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for anadditional 30 feet. While the flames are present, any creature within 5 feet of you that hits you triggers your {@spell Hellish Rebuke}. Once this feature is used, you cannot use it or your Tiefling Hellish Rebuke again until you complete a long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
       "name": "Tortle Protector",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
