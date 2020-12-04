@@ -2654,7 +2654,7 @@
       ]
     },
     {
-      "name": "Flames of Hell",
+      "name": "Barbed Hide",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -2666,12 +2666,12 @@
         }
       ],
       "entries": [
-        "You didn't mearly adopt the flames of hell. You were born in it, molded by it. You gain the following benefits:",
+        "One of your ancestors was a barbed devil or other spiky fiend. Barbs protrude from your head. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "{@b Hotter than Hell.} When you roll Fire damage for a spell you cast, you can reroll any roll of 1 on the Fire damage dice, but you must use the new roll, even if it is another 1",
-            "{@ Diabolic Shield.} Whenever you cast a spell that deals Fire damage and you have not moved, you cancause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for anadditional 30 feet. While the flames are present, any creature within 5 feet of you that hits you triggers your {@spell Hellish Rebuke}. Once this feature is used, you cannot use it or your Tiefling Hellish Rebuke again until you complete a long rest."
+            "{@b Spiked Carapace.} As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal {@dice 1d6} piercing damage per 5 character levels (to a max of {@dice 4d6} at 20th level) to any creature grappling you or any creature grappled by you.",
+            "{@ Fiendish Visage.} You gain proficiency in the Intimidation skill. If you’re already proficient in it, your proficiency bonus doubles."
           ]
         }
       ],
@@ -2679,7 +2679,7 @@
         {
           "choose": {
             "from": [
-              "int",
+              "con",
               "cha"
             ],
             "amount": 1
