@@ -657,6 +657,30 @@
       ]
     },
     {
+      "name": "Disturbing the Peace",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "dwarf"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You've spent a lot of your downtime in the taverns with the rest of your dwarven buddies. You live for a good drink, uproarious laughter and a nice, old fashioned bar fight. This attitude extends beyond the bars of the dwarves for better or worse. You gain the following benefits",
+        {
+          "type": "list",
+          "items": [
+            "{@b Blunt the Knives.} You are proficient with improvised weapons.",
+            "{@b Smash the Forks.} Your unarmed strike uses a {@dice d4} for damage.",
+            "{@b Break the Plates.} When you make a melee weapon attack on your turn and at least one of your hands are free, you can use your bonus action to make an unarmed strike or grapple attempt."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Duergar Work Ethic",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
