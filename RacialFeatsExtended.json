@@ -678,6 +678,17 @@
             "{@b Break the Plates.} When you make a melee weapon attack on your turn and at least one of your hands are free, you can use your bonus action to make an unarmed strike or grapple attempt."
           ]
         }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
       ]
     },
     {
