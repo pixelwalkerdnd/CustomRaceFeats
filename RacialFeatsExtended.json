@@ -267,8 +267,8 @@
         {
           "type": "list",
           "items": [
-            "Whenever you spend one or more hit dice during a short rest, you can regain an extra {@dice 1d6} hit points.",
-            "At the end of a long rest, you gain inspiration (described in chapter 4 of the Player's Handbook)."
+            "Whenever you spend one or more hit dice during a short rest, you can regain an extra {@dice 1d6} plus your Constitution modifier hit points.",
+            "At the end of a long rest, you gain a d4 inspiration die which can be used on any ability check, attack roll, or saving throw. The die increases in size to a d6 at level 5, a d8 at level 10, and a d10 at level 15."
           ]
         }
       ],
