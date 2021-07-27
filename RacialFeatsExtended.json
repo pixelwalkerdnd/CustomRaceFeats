@@ -367,8 +367,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Skirmish.} You have advantage on the first attack roll of your turn if you have moved to a space at least 15 feet from the space you occupied at the start of your turn.",
-            "{@b Equine Form.} A Medium or smaller creature can ride onyour equine back if you allow it. In such a situation, youcontinue to act independently, not as a controlled mount."
+            "{@b Skirmish.} If you move at least 15 feet in a straight line before making a melee attack, you make that melee attack with Advantage",
+            "{@b Equine Form.} A Medium or smaller creature can ride onyour equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount."
           ]
         }
       ],
@@ -401,7 +401,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Gallop.} You can Dash as a Bonus Action. Opportunity attacks made against you while dashing are made at disadvantage.",
+            "{@b Gallop.} You can Dash as a Bonus Action.",
+            "{@b Equine Agility} If you take the Dash action on your turn, opportunity attacks against you are made with disadvantage.",
             "{@b Magical Hooves.} Your hooves now count as magical for the purposes of overcoming resistance."
           ]
         }
@@ -436,7 +437,7 @@
           "type": "list",
           "items": [
             "{@b Unicorn Bloodline.} You can choose to grow a small unicorn horn on your forehead, or a larger horn if you already have one.",
-            "{@b Fey Magic.} You learn the cantrip {@spell Druidcraft}, and the spells {@spell Entangle} and {@spell Shield of Faith}, both of which you can cast once without expending a spell slot. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat (Intelligence or Wisdom)."
+            "{@b Fey Magic.} You learn the cantrip {@spell Druidcraft}, and the spells {@spell Entangle} and {@spell Shield of Faith}. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat (Intelligence or Wisdom)."
           ]
         }
       ],
