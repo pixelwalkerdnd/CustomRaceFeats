@@ -537,7 +537,7 @@
       ]
     },
     {
-      "name": "Bursting Breath",
+      "name": "Shaped Breath",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -549,11 +549,13 @@
         }
       ],
       "entries": [
-        "You are one of the rare dragonborn who have learned to shape and condense their breath weapon before unleashing it. You gain the following benefits:",
+        "You are one of the rare dragonborn who have learned to shape and condense their breath weapon before unleashing it. You can now use your breath weapon in the following ways: ",
         {
           "type": "list",
           "items": [
-            "{@b Exploding Breath.} You can use your breath weapon to shoot a ball of energy from your mouth that explodes in an area of effect blast. It has a range of 60 feet and the explosion has a radius of 10 feet."
+            "{@b Line} Your breath weapon can be exhaled in a line 5 feet wide and 30 feet long.",
+            "{@b Cone} Your breath weapon can be exhaled in a 15 foot cone.",
+            "{@b Burst} Your breath weapon can be exhaled as a ball of explosive energy. Choose a point in a 60 foot range and a flash of your breath's energy will streak there and explode with a 10 foot radius."
           ]
         }
       ]
