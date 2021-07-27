@@ -466,12 +466,11 @@
         }
       ],
       "entries": [
+        "Being able to shapeshift at will, you are able to subtly change before an enemy, unsettling them. You gain the following benefits: ",
         {
           "type": "list",
           "items": [
-            "Being able to shapeshift at will, you are able to subtly change before an enemy, unsettling them",
-            "When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you.",
-            "Once you use this trait, you can't use it again until you finish a short or long rest."
+            "When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you. Once you use this trait, you can't use it again until you finish a short or long rest."
           ]
         }
       ],
@@ -498,7 +497,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Anti-magic Visage.} You have advantage on Saving Throw agains divination effects.",
+            "{@b Anti-magic Visage.} You have advantage on Saving Throw against spells from the Divination school of magic.",
             "{@b Unscryable.} You can cast the {@spell Nondetection} spell on yourself once without expending a spell slot or material components once. Once you cast the spell in this way, you can't cast the spell in this way again until you finish a long rest."
           ]
         }
