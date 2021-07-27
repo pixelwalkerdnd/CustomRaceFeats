@@ -83,30 +83,6 @@
       ]
     },
     {
-      "name": "Avian Warfare",
-      "source": "RacialFeatsExpandedFedor",
-      "prerequisite": [
-        {
-          "race": [
-            {
-              "name": "aarakocra"
-            }
-          ]
-        }
-      ],
-      "entries": [
-        "You've trained in Aarakocra combat techniques, gaining the following benefits:",
-        {
-          "type": "list",
-          "items": [
-            "{@b Dive Attack}. If you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.",
-            "{@b Flyby.} You don't provoke an opportunity attack when youfly out of an enemy's reach.",
-            "{@b Improved Talons.} Your talons gain the finesse property."
-          ]
-        }
-      ]
-    },
-    {
       "name": "Mastery of Air",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
@@ -155,8 +131,9 @@
         {
           "type": "list",
           "items": [
-            "{@b Divine Touch.} Your Healing Hands feature can be used asa bonus action, and you can use it with a range of 30 feet.",
-            "{@b Heavenly Influence.} Whenever a creature you can seeregains Hit Points, you can use your reaction for them toregain additional Hit Points equal to your Charisma orWisdom modifier, whichever is higher. You can use thisfeature once, and regain the ability to do so whenever youfinish a short or long rest."
+            "{@b Divine Touch.} Your Healing Hands feature can be used as a bonus action.",
+            "{@b Purifying Words} When you take an action (not bonus action) to use your Healing Hands feature, it gains a range of 30 feet.",
+            "{@b Heavenly Influence.} Whenever a creature you can see regains Hit Points, you can use your reaction for them to regain additional Hit Points equal to your Charisma or Wisdom modifier, whichever is higher. You can use this feature once, and regain the ability to do so whenever you finish a short or long rest."
           ]
         }
       ],
@@ -189,7 +166,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Divine Aid.} Whenever you fail a saving throw, you can choose to succeed instead. Once you use this feature, you cannot do so again until you finish a long rest"
+            "{@b Divine Aid.} Whenever a creature within 30 feet of you (including yourself) fails a saving throw, you can use your reaction to have that creature roll again and use the new roll possibly turning a failure into a success. Once you use this feature, you cannot do so again until you finish a short or long rest."
           ]
         }
       ],
@@ -223,7 +200,7 @@
           "type": "list",
           "items": [
             "{@b Angelic Strikes.} When you score a critical hit with amelee weapon attack, you can deal additional radiant damage equal to your Charisma modifier.",
-            "{@b Radiant Smite.} You can cast the {@spell wrathful smite} spell once, without expending a spell slot. Once you do so, you cannot use this feature again until you finish a short orlong rest. Charisma is your spellcasting ability for this spell."
+            "{@b Radiant Smite.} You can cast the {@spell wrathful smite} spell once, without expending a spell slot. Once you do so, you cannot use this feature again until you finish a short or long rest. Charisma is your spellcasting ability for this spell."
           ]
         }
       ],
@@ -257,7 +234,7 @@
           "type": "list",
           "items": [
             "{@b Fiendish Strikes.} When you score a critical hit with a melee weapon attack, you deal additional necrotic damage equal to your Charisma modifier.",
-            "{@b Life Drain.} Your {@i Healing Hands} feature doesn't heal Hit Points, rather the target must succeed on a Constitution saving throw (DC = 8 + your proficiency modifier + your Charisma modifier) or take necrotic damage equal to your level (half damage on a success). You regain Hit Points equal to the damage dealt."
+            "{@b Life Drain.} You can use your {@i Healing Hands} on an enemy creature. The target must succeed on a Constitution saving throw (DC = 8 + your proficiency modifier + your Charisma modifier) or take necrotic damage equal to your level (half damage on a success). You regain Hit Points equal to the damage dealt."
           ]
         }
       ],
