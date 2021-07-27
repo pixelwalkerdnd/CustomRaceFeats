@@ -301,7 +301,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Heart of Hruggek.} You have advantage on saving throwsagainst being charmed, frightened, paralyzed, poisoned,stunned, or put to sleep."
+            "{@b Heart of Hruggek.} You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
           ]
         }
       ],
@@ -330,11 +330,11 @@
         }
       ],
       "entries": [
-        "You are good with your hands... well, at using them to killthings at least. You gain the following benefits:",
+        "You are good with your hands... well, at using them to kill things at least. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "{@b Heavy Blow.} As a bonus action, you can have your weapon attacks dealtwice the number of damage die that they normally do thisturn. You may use this feature a number of times equal toyour Strength modifier (minimum of 1) before needing to complete a long rest to recharge all expended uses."
+            "{@b Heavy Blow.} Once per turn you can declare an attack to be a Heavy Blow. You can decalre this after an attack hits. The target creature takes an additional weapon damage equal to 1d4 plus half your level (rounded up) and must succeed in a Strength (Athletics) or Dexterity (Acrobatics) check against your attack roll or be knocked prone. You may use this feature a number of times equal to your Strength modifier (minimum of 1) before needing to complete a long rest to recharge all expended uses."
           ]
         }
       ],
