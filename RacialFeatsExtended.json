@@ -843,7 +843,7 @@
         {
           "type": "list",
           "items": [
-            "You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot.",
+            "You learn the {@spell detect magic} spell and can cast it only as a ritual.",
             "You have resistance to lightning and thunder damage."
           ]
         }
@@ -878,7 +878,7 @@
           "type": "list",
           "items": [
             "{@b Lighter than Air.} You gain a flying speed of 15 feet. To use this speed, you cannot be wearing medium or heavy armor and you cannot be encumbered.",
-            "{@b Strong Gust.} You learn the @{spell gust|xge} cantrip if you don't already know it. Constitution is your spell casting ability for it. Additionally, whenever you push a creature with this spell, they get pushed 10 feet, rather than 5, and you can push them in any direction."
+            "{@b Strong Gust.} You learn the {@spell Gust|xge} cantrip if you don't already know it. Constitution is your spell casting ability for it. Additionally, whenever you push a creature with this spell, they get pushed 10 feet, rather than 5, and you can push them in any direction."
           ]
         }
       ],
@@ -905,7 +905,7 @@
         {
           "type": "list",
           "items": [
-            "You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot.",
+            "You learn the {@spell detect magic} spell and can cast it only as a ritual.",
             "You gain natural armor. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a {@item shield} and still gain this benefit."
           ]
         }
@@ -940,7 +940,7 @@
           "type": "list",
           "items": [
             "{@b Unarmored Defense.} When not wearing armor, your AC is calculated as 13 + your Constitution modifier. You can use a {@item shield} and still gain this benefit.",
-            "{@b Earth Shaper.} You learn the {@spell mold earth|xge} cantrip if you don't already know it. Constitution is your spellcasting ability for this spell."
+            "{@b Earth Shaper.} You learn the {@spell mold earth|xge} cantrip if you don't already know it."
           ]
         }
       ],
@@ -969,12 +969,12 @@
         }
       ],
       "entries": [
-        "You manifest more of the magical power of your efreet heritage. You gain the following benefits:",
+        "You manifest more of the magical power of your efreeti heritage. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot.",
-            "Your darkvision has a radius of 120 feet"
+            "You learn the {@spell detect magic} spell and can cast it only as a ritual.",
+            "Your darkvision has a radius of 120 feet."
           ]
         }
       ],
@@ -1041,7 +1041,7 @@
         {
           "type": "list",
           "items": [
-            "You learn the {@spell detect magic} spell and can cast it at will, without expending a spell slot.",
+            "You learn the {@spell detect magic} spell and can cast it only as a ritual.",
             "You have resistance to cold damage."
           ]
         }
@@ -1099,7 +1099,7 @@
         {
           "race": [
             {
-              "name": "genasi (water)  "
+              "name": "genasi"
             }
           ]
         }
