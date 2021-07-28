@@ -1697,7 +1697,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Hive Mind Communication.} Your Mind Link capabilities extend further through your connection to the plane of dreams. Each long rest, you may designate up to 9 willing creatures that are within 60ft of you. Each of those creatures can communicate telepathically with each other and you as long as the communicants are on the same plane of existence as you. You may end this effect early as an action."
+            "{@b Hive Mind Communication.} Your Mind Link capabilities extend further through your connection to the plane of dreams. Each long rest, you may designate up to a number of willing creatures other than yourself become part of a telepathic Hive Mind. You are automatically a part of the Hive Mind and the maximum number of creatures you can designate is equal to you proficiency bonus. Each of those creatures can communicate telepathically with each other and you as long as they remain within a number of feet equal to 10 times your character level from at least one other creature who is part of the Hive Mind. You may end this effect early as an action."
           ]
         }
       ],
