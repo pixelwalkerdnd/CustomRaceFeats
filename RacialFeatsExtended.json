@@ -334,7 +334,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Heavy Blow.} Once per turn you can declare an attack to be a Heavy Blow. You can decalre this after an attack hits. The target creature takes an additional weapon damage equal to 1d4 plus half your level (rounded up) and must succeed in a Strength (Athletics) or Dexterity (Acrobatics) check against your attack roll or be knocked prone. You may use this feature a number of times equal to your Strength modifier (minimum of 1) before needing to complete a long rest to recharge all expended uses."
+            "{@b Heavy Blow.} Once per turn you can declare an attack to be a Heavy Blow. You can decalre this after an attack hits. The target creature takes an additional weapon damage equal to 1d4 plus half Strength modifier (rounded up) and must succeed in a Strength (Athletics) or Dexterity (Acrobatics) check against your attack roll or be knocked prone. You may use this feature a number of times equal to your Strength modifier (minimum of 1) before needing to complete a long rest to recharge all expended uses."
           ]
         }
       ],
@@ -1394,7 +1394,7 @@
         }
       ],
       "entries": [
-        "Your ability to shrug off some injuries is legendary, even for your race. You gain the following benefits:",
+        "Your ability to shrug off grave injuries is legendary, even for a Goliath. You gain the following benefits:",
         {
           "type": "list",
           "items": [
@@ -1427,11 +1427,12 @@
         }
       ],
       "entries": [
-        "Your greatest competitor is yourself, constantly looking to grow. You gain the following benefits:",
+        "Your greatest competitor is yourself, constantly looking to grow even in the heat of combat. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "{@b You Can Do Better.} Whenever you make two attacks in a row (not necessarily on the same turn), you can choose to roll {@dice 1d6} and add it to the attack and damage rolls of the second attack. You can use this feature after you roll, but before your DM tells you if you succeed or not. If your second attack does at least double the damage of the first, this ability instantly recharges and the damage die increases by one size. You can chain together multiple uses of this ability assuming you keep doubling damage. Once you use this feature, you cannot do so again until you finish a short or long rest."
+            "{@b You Can Do Better.} Whenever you make two weapon attacks in a row (not necessarily on the same turn), you can choose to roll {@dice 1d4} and add it to the damage roll of the second attack. If the second damage roll including the additional d4 doubles the total of the first damage roll (do not include modifiers or extra damage dice from other features such as Sneak Attack or Divine Smite. Damage from critical hits count however), this ability instantly recharges and the addtional damage die increases by one size. You can chain together multiple uses of this ability assuming you keep doubling damage. Once you use this feature, you cannot do so again until you finish a long rest. When completing a long rest, the damage die returns the original size of a d4.",
+            "Die increases follow this pattern d4 > d6 > d8 > d12 > 2d8 > 2d12 > 3d8 > 3d12 > etc"
           ]
         }
       ]
@@ -1449,11 +1450,11 @@
         }
       ],
       "entries": [
-        "The mighty blood of giants runs through your veins. Your strength is greater than any other race among the realms. You gain the following benefits:",
+        "The mighty blood of giants runs through your veins. Your might shines through when you swing mighty weapons. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "{@b Overwhelming Strength.} When you add your Strength modifier to a damage roll, you add your Strength modifier plus 1/2 of your Strength modifier (rounded up) to the damage instead."
+            "{@b Overwhelming Strength.} When you make a melee attack with a Heavy weapon, you add additional weapon damage equal to half your Strength modifier rounded up."
           ]
         }
       ],
