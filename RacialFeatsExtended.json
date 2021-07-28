@@ -3083,7 +3083,7 @@
           "items": [
             "{@b Deep Sea Combat.} While you are submerged in water, you have advantage on all attacks of opportunity",
             "{@b Electric Eel.} You learn the {@spell Shocking Grasp} cantrip.",
-            "{@b Elemental Fury.} You learn the {@spell Control Water}, {@spell Watery Sphere|xge}, and {@spell Call Lightning} spells, each which you can cast once without expending a spell slot. If you dot have access to the required spell slot for the spell, you must be submerged in water to cast it or your character must be of 5th level or higher. You regain the ability to cast these spells in this way when you finish a long rest. Charisma is your spellcasting ability for these spells."
+            "{@b Elemental Fury.} You learn two 1st level and one 2nd level evocation spell from the wizard or sorcerer spell lists of your choice, each of which can be cast without expending a spell slot. Once a spell is cast using this feature, it can't be cast using this feature again until you complete a long rest."
           ]
         }
       ]
@@ -3105,7 +3105,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Reflect Magic.} As a reaction whenever you take fire, lightning, or cold damage, you can have another creature of your choice within 60 feet take the same amount and type of damage."
+            "{@b Reflect Elements.} As a reaction whenever you take acid, fire, lightning, or cold damage, you can have another creature of your choice within 60 feet take the same amount and type of damage. Once you use this feature, you cannot do so again until you finish a short or long rest."
           ]
         }
       ],
