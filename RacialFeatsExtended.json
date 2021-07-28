@@ -3139,7 +3139,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Improved Tireless Precision.} You are proficient in one skill and one tool of your choice. Whenever you make anability check with the chosen skill or tool, roll a {@dice 1d4} and add the number rolled to the check's total. Additionally, choose one skill or tool with which your Tireless Precision or this feat affects. You instead roll {@dice 2d4} and add it to ability checks made with the chosen skill or tool."
+            "{@b Improved Tireless Precision.} Choose an additional skill or tool to gain proficiency in. The chosen skill is also affected by your Tireless Precision trait. Additionally, choose one skill or tool with which your Tireless Precision affects. You instead roll {@dice 2d4} and add it to ability checks made with the chosen skill or tool."
           ]
         }
       ],
@@ -3172,7 +3172,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Expertise.} Choose one of your proficiencies in Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand or a tool. Your proficiency bonus is doubled for any abilitycheck you make that uses the chosen proficiency.",
+            "{@b Expertise.} You gain expertise in the skill chosen as part of your Tireless Precision trait.",
             "{@b Transferable Knowledge.} Your Tireless Precision die becomes a {@dice 1d6}."
           ]
         }
