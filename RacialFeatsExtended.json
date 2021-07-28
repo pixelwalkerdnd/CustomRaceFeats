@@ -1846,7 +1846,7 @@
         {
           "type": "list",
           "items": [
-            "{@ Voice Actor.} You have advantage on Charisma (Deception) checks when using your Mimicry trait to convince a creature that you are the person you're mimicing. Additionally if you manage to convince the creature you are this other person, any subsequent Charisma based skill checks using the same voice also have advantage."
+            "{@b Voice Actor.} You have advantage on Charisma (Deception) checks when using your Mimicry trait to convince a creature that you are the person you're mimicing. Additionally if you manage to convince the creature you are this other person, any subsequent Charisma based skill checks using the same voice also have advantage."
           ]
         }
       ],
@@ -1873,7 +1873,7 @@
         {
           "type": "list",
           "items": [
-            "{@ Sound of Darkness.} You may take an Action on your turn to emit an unsettling or distracting sound of your choice. Any creature that can hear but not see you must make a Wisdom saving throw or suffer disadvantage on attack rolls and saving throws until the beginning of your next turn (the DC of which is calculated as 5 + your Charisma (Deception) modifier). Once you use this ability, you may not use it again until you take a short or long rest."
+            "{@b Sound of Darkness.} You may take an Action on your turn to emit an unsettling or distracting sound of your choice. Any creature that can hear but not see you must make a Wisdom saving throw or suffer disadvantage on attack rolls and saving throws until the beginning of your next turn (the DC of which is calculated as 5 + your Charisma (Deception) modifier). Once you use this ability, you may not use it again until you take a short or long rest."
           ]
         }
       ],
@@ -2634,7 +2634,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Mutagenic.} You gain one Simic Hybrid animal enhancement you don't already have."
+            "{@b Mutagenic.} You gain one Simic Hybrid animal enhancement you don't already have for which you meet the requirements."
           ]
         }
       ],
@@ -2676,7 +2676,7 @@
             ],
             [
               "{@b Nimble Climber.}",
-              "{@b Chameleon Climbing Apparatus.} You gain an additional 10 feet of climbing speed. Additionally, you gain the ability to climb any solid surface without having to make any skill checks. Finally, if you remain still while climbing or against a wall for at least 6 seconds or take no movement on your turn in combat your body shifts colors to match the surface behind you. You are considered lightly obscured in bright light, heavily obscured in dim light, and invisible and silent in darkness as long as you move slowly and stay within 5 feet of a wall or vertical surface (in combat this means 10 feet or less per turn). Darkvision does not affect your level of obscurment (eg. if you are in a dim light within 60 feet of a creature with darkvision, you are considered heavily obscured to them and not lightly obscured even though they see in dim light as if it is bright light. If you were instead in darkness, they cannot percieve you at all with non-magical means even though they see in darkness as dim light)."
+              "{@b Chameleon Climbing Apparatus.} You gain an additional 10 feet of climbing speed. If you remain still while climbing or against a wall for at least 6 seconds your body shifts colors to match the surface behind you. You are considered lightly obscured in bright light, heavily obscured in dim light, and invisible and silent in darkness as long as you move less 10 feet per turn and stay within 5 feet of a wall or vertical surface."
             ],
             [
               "{@b Underwater Adaption.}",
