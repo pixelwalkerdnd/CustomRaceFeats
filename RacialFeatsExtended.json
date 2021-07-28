@@ -2011,7 +2011,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Expert Tracking.} You have advantage on Wisdom (Perception) checks to locate a creature and on Wisdom (Survival) checks to follow its tracks.",
+            "{@b Expert Tracking.} You have advantage on Wisdom (Perception) checks to locate beasts and on Wisdom (Survival) checks to follow its tracks.",
             "{@b Marked for Dinner.} You learn the spell {@spell Hunter's Mark} and can cast it as a level 1 spell without expending a spell slot. When you case the spell in this way, you cannot do so again until you complete a short or long rest."
           ]
         }
@@ -2046,9 +2046,109 @@
           "type": "list",
           "items": [
             "{@b Apex Predator.} Instead of choosing two abilities to gain proficiency in for your Hunter's Lore feature, you gain proficiency in all of the listed skills.",
-            "{@b Ferocious Bite.} Your Bite ability deals {@dice 2d6} + your Strength modifier whenyou reach 8th level and {@dice 3d6} + your Strength modifierwhen you reach 15th level.",
+            "{@b Ferocious Bite.} Your Bite ability deals {@dice 2d6} + your Strength modifier when you reach 8th level and {@dice 3d6} + your Strength modifier when you reach 15th level.",
             "{@b Primal Hunger.} Instead of only being to use Hungry Jaws once per short or long rest, you can now use it a number of times equal to your proficiency modifier divided by 2 rounded down."
           ]
+        }
+      ]
+    },
+    {
+      "name": "Bolstering Magic",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "leonin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "For the sake of the pride some Leonin learn magic to empower and protect others. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You know the {@spell guidance} cantrip. When you reach 3rd level, you can cast the {@spell bless} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell magic weapon} spell once with this trait and regain the ability to do so when you finish a long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Revenant Blade",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "leonin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
+            "A double-bladed scimitar has the finesse property when you wield it."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "King of the Jungle",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "leonin"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "Leonin are fierce warriors. Some have such a reputation for ferocity that their roars instill fear in their opponents. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Ferocious Roar} Using an action you may release a deafening roar. Any hostile creature that can hear you within 60 feet must make a Wisdom Saving Throw or be frightened until the end of their next turn. While frightened in this way, the creature cannot take reactions, and on its turn it can only take the dash action must end its turn at least 60 feet away from you. If for some reason it is unable to end its turn this far away (such as being in enclosed space) they take 1d6 psychic damage for every full 15 feet they still needed to move (minimum 1d6). The DC for this ability is 8 + your proficiency bonus + your Charisma modifier. Once you use this ability, you cannot do so again until you complete a long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "cha"
+            ],
+            "amount": 1
+          }
         }
       ]
     },
@@ -2069,7 +2169,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Tusk Weapon.} Your tusks become natural weapons, with which you can make unarmed attacks with. When you attack with your tusks, you deal piercing damage equal to 1d6 + your Strength modifier, rather than the regular damage for an unarmed strike.",
+            "{@b Tusk Weapon.} Your tusks become natural weapons. When you attack with your tusks, you deal piercing damage equal to 1d6 + your Strength modifier.",
             "{@b Thick Hide.} Your Natural Armor is now calculated as 13 + your Constitution modifier."
           ]
         }
@@ -2093,7 +2193,7 @@
           "type": "list",
           "items": [
             "{@b Battle Charge.} Whenever you move at least 20ft straight toward a target you may make a goring attack with your tusks as a bonus action dealing {@dice 1d6} piercing + your Strength modifier. If it hits and the target fails a Dexterity (Acrobatics) or a Strength (Athletics) Saving Throw (the DC of which is calculated as 8 + your proficiency bonus + your Strength modifier) it is knocked prone.",
-            "{@b Strong Trunk.} When using your trunk to make an unarmed strike, you deal {@dice 1d4} + your Strenght modifier damage instead of the normal unarmed strike damage. Additionally, you gain profiency with Strength (Athletics) checks when using your trunk to grapple. If you already have proficiency in Athletics, then you gain expertise instead. Further still, your trunk can now lift a number of pounds equal to 10 times your Strength score."
+            "{@b Strong Trunk.} When using your trunk to make an unarmed strike, you deal {@dice 1d4} + your Strength modifier damage instead of the normal unarmed strike damage. Additionally, you gain profiency with Strength (Athletics) checks when using your trunk to grapple. If you already have proficiency in Athletics, then you gain expertise instead. Further still, your trunk can now lift a number of pounds equal to 10 times your Strength score."
           ]
         }
       ],
