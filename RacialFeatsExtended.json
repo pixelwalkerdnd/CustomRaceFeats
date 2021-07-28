@@ -1156,7 +1156,7 @@
         }
       ],
       "entries": [
-        "Your psionic training is more advanced than most Gith. Choose one cantrip from the Sorcerer spell list. You can cast this spell without any components. Additionally, choose two 1st-leveled spells from the Sorcerer spell list. You can cast each at will without expending a spell slot and without any components. Once you cast either spell this way, you cannot do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
+        "Your psionic training is more advanced than most Gith. Choose one cantrip from the Sorcerer spell list. Additionally, choose two 1st-leveled spells from the Sorcerer spell list. You can cast each of the cantrip and spells as part of your Psionics trait. Once you cast either spell this way, you cannot do so again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
       ]
     },
     {
@@ -1176,7 +1176,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Githyanki Sword Training.} You gain proficiency with the greatsword.",
+            "{@b Githyanki Sword Training.} You gain proficiency with greatswords, shortswords, longswords, and rapiers.",
             "{@b Silvered Expertise.} When using a silvered weapon, add +1 to both attack and damage rolls."
           ]
         }
@@ -1204,7 +1204,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Githzerai Blindfold Training.} You have blindsight, perceiving your surrounding without relying on sight, within a radius of 20 feet. While in your blindsight radius, any negative effect of the Blinded condition is ignored."
+            "{@b Githzerai Blindfold Training.} You have blindsight, perceiving your surrounding without relying on sight, within a radius of 20 feet.",
+            "{@b Heightened Senses} You gain proficiency in Wisdom (Perception) skill checks."
           ]
         }
       ],
@@ -1215,7 +1216,7 @@
       ]
     },
     {
-      "name": "Advanced Psionics",
+      "name": "Psionic Combat Training",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -1231,7 +1232,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Psi Warrior.} As a bonus action on your turn, you can imbue your weapons with psionic force. For 1 minute, you can choose one damage roll per turn and add 1d4 psychic damage to the total damage. After using this feature, you must complete a long rest before you can use it again.",
+            "{@b Psi Warrior.} As a bonus action on your turn, you can imbue your weapons with psionic force. For 1 minute, the first attack on each turn deals an additional 1d4 + Proficiency Bonus psychic damage.",
             "{@b Blurring Reality}. You learn the {@spell blur} spell. You can cast this spell as part of your Psionics trait. You regain the ability to do so after a long rest."
           ]
         }
