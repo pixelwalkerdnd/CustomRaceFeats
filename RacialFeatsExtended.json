@@ -1791,7 +1791,7 @@
         {
           "type": "list",
           "items": [
-            "Whenever another creature you can see uses a skill or tool, you can use your reaction to gain proficiency in that skill or tool. Proficiencies gained in this way last for 1 hour, and you can only mimic one proficiency at a time. Once you use this ability, you can't do so again until you finish a short or long rest."
+            "Whenever another creature you can see uses a skill or tool, you can use your reaction to gain proficiency in that skill or tool. Proficiencies gained in this way last for a number of hours equal to half your proficiency bonus rounded down, and you can only mimic one proficiency at a time."
           ]
         }
       ],
@@ -1820,11 +1820,11 @@
         }
       ],
       "entries": [
-        "Your imitation of others is uncanny and near perfect. You gain the following benefits:",
+        "Your imitation of others is uncanny and near perfect. You gain the following benefits: ",
         {
           "type": "list",
           "items": [
-            "{@ Voice Actor.} You have advantage on Charisma (Deception) checks when using your Mimicry trait. Additionally, any subsequent Charisma based skill checks using the same voice also have advantage."
+            "{@ Voice Actor.} You have advantage on Charisma (Deception) checks when using your Mimicry trait to convince a creature that you are the person you're mimicing. Additionally if you manage to convince the creature you are this other person, any subsequent Charisma based skill checks using the same voice also have advantage."
           ]
         }
       ],
@@ -1939,7 +1939,7 @@
         }
       ],
       "entries": [
-        "Unlike many of the other monstrous races, your kind isclever and has an understanding of how complex machineryworks. You gain the following benefits:",
+        "Unlike many of the other monstrous races, your kind isclever and has an understanding of how complex machinery works. You gain the following benefits:",
         {
           "type": "list",
           "items": [
