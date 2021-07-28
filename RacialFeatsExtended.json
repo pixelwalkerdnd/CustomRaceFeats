@@ -2873,7 +2873,7 @@
           "type": "list",
           "items": [
             "You can use your Feline Agility trait twice before you must move 0 feet on one of your turns to use the trait again. You can still only use this ability once per turn when you move.",
-            "You don't take damage from falling 20 feet or less if you aren't incapacitated."
+            "If you would take damage from falling, treat the damageas if you fell 20 feet less."
           ]
         }
       ],
@@ -2884,7 +2884,7 @@
       ]
     },
     {
-      "name": "Feline Agility",
+      "name": "Feline Jumping",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -2900,14 +2900,15 @@
         {
           "type": "list",
           "items": [
-            "Your base long jump is up to 25 feet and your base high jump is up to 15 feet, with or without a running start.",
-            "If you would take damage from falling, treat the damageas if you fell 20 feet less."
+            "You can now long jump a distance equal to 20 + your Strength modifier (minimum 20). Additionally, you can high jump a distance of 15 feet and your high jumps no longer require running starts.",
+            "You gain proficiency in the Acrobatics or Athletics skills."
           ]
         }
       ],
       "ability": [
         {
-          "dex": 1
+          "dex": 1,
+          "str": 1
         }
       ]
     },
@@ -2928,7 +2929,7 @@
         {
           "type": "list",
           "items": [
-            "After taking a long rest, choose any skill and gainproficiency with it until the end of your next long rest. Ifyou are already proficient with a skill, you may choose togain expertise with the skill (add your proficiency bonus twice instead of once)."
+            "After taking a long rest, choose any skill you don't have expertise in. You may add half your proficiency bonus rounded down to this skill."
           ]
         }
       ]
