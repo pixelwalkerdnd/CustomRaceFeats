@@ -601,7 +601,7 @@
           "type": "list",
           "items": [
             "{@b Right Tool for the Job.} You gain profieciency with two artisan's tools of your choice.",
-            "{@b Tool Master.} Choose one artisan's tool of which you're proficient in. Your proficiency bonus is doubled for any ability checkmade with this tool."
+            "{@b Tool Master.} Choose one artisan's tool of which you're proficient in. Your proficiency bonus is doubled for any ability check made with this tool."
           ]
         }
       ],
@@ -612,7 +612,7 @@
       ]
     },
     {
-      "name": "Master of the Forge",
+      "name": "Field Smithy",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -624,13 +624,14 @@
         }
       ],
       "entries": [
-        " You can create masterwork weapons and armor when forging an item. A masterwork item costs five times as much as an ordinary item of its type and has the following properties, unless it is a magical item.",
+        "Your ability as a black smith had led you to be able to affect armament even without the use of a workshop. You gain the following benefits: ",
         {
           "type": "list",
           "items": [
-            "{@b Masterwork Weapon.} You have +1 on attack rolls made with a masterwork weapon.",
-            "{@b Masterwork Armor.} Light masterwork armor is hardened and gains +1 AC. Medium masterwork armor does not produce as much noise, its wearer does not have disadvantage on Stealth rolls. Heavy masterwork armor is properly weighted, and grants advantage to its wearer on checks and saves made to avoid being knocked prone, or to resist being pushed.",
-            "{@b Magical Forge Master.} Upon reaching 6th level, you can use a magic item as a base for Master Weapon and Masterwork Armor at an additional two times the cost and still gain the benefits on the item."
+            "{@b Expert Smith.} You gain proficiency with Smith's tools if you don't already have it. If you do, instead gain expertise with Smith's tools.",
+            "{@b Sharpened Weapons.} At the end of a long rest, you can improve one nonmagical weapon with your smithing abilities. The wielder of the improved weapon may reroll 1s on damage rolls until the next long rest.",
+            "{@b Improved Armor.} At the end of a long rest, you can improve one nonmagical piece of armor or a shield with your smithing abilities. Light armor becomes even lighter increasing the wearers speed by 5 feet, medium armor no longer imposes disadvantage on stealth checks, heavy armor recieves +1 AC, and shields provide a +2 to Dexeterity Saving throws.",
+            "{@b Magical Forge Master.} Upon reaching 6th level, you can use a magic item as a base for either Sharpened Weapons and Improved Armor but not both. Upon reaching 12th level you can use a magic item as a base for both features."
           ]
         }
       ]
@@ -653,8 +654,8 @@
           "type": "list",
           "items": [
             "{@b Blunt the Knives.} You are proficient with improvised weapons.",
-            "{@b Smash the Forks.} Your unarmed strike uses a {@dice d4} for damage.",
-            "{@b Break the Plates.} When you make a melee weapon attack on your turn and at least one of your hands are free, you can use your bonus action to make an unarmed strike or grapple attempt."
+            "{@b Smash the Forks.} While you are wielding a weapon that doesn't have the Heavy property, it gains the Thrown property (if it doesn't already have it) with a range of 20/60 ft.",
+            "{@ Experience Bar Hopper} You have advantage on Intelligence (History) checks to recall information about taverns, inns, and breweries. You have advantage on Intelligence (Investigation) checks made to find taverns, inns, and breweries. Additionally, you gain a +2 to Constitution Saving Throws made against the effects of alcoholic intoxication."
           ]
         }
       ],
@@ -688,7 +689,7 @@
           "type": "list",
           "items": [
             "{@b Tireless.} You suffer no penalities from the first and second level of exhuastion. Upon reaching the third level of exhuastion or higher, you now suffer from level 1 and 2 exhuastion effects.",
-            "{@b Right Back to It.} You can spend hit dice on a long rest to recover from an additional level of exhaustion. The number of dice that can be spent is 1/4 of your character level rounded down."
+            "{@b Right Back to It.} You can spend a hit dice on a long rest to recover from an additional level of exhaustion."
           ]
         }
       ]
