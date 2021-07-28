@@ -1551,19 +1551,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Ancestral Blood.} Choose one racial trait from the race of Elves you descend from. You know have that racial trait as well."
+            "{@b Ancestral Blood.} Choose one racial trait from the race of Elves you descend from. You now have that racial trait as well."
           ]
-        }
-      ],
-      "ability": [
-        {
-          "choose": {
-            "from": [
-              "str",
-              "dex"
-            ],
-            "amount": 1
-          }
         }
       ]
     },
@@ -2316,7 +2305,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Critical Gore.} When making an attack roll with your horns, you criticall hit on a 19 or 20.",
+            "{@b Critical Gore.} When making an attack roll with your horns, you critically hit on a 19 or 20.",
             "{@b Deep Wounds.} On a critical hit with your horns, the targe must make a Constitution saving throw at the end of each of its following turns or the creature takes necrotic damage equal to your level + your proficiency bonus. The DC for this save is 10 + your Consistution modifier. The condition ends after 3 successful saves or 1 minute.",
             "{@b Blood Lust} Whenever you reduce a creature to 0 hitpoints or you land a critical strike against a creature, you may add additional damage equal your Strength bonus to all damage rolls you make thereafter until the end of your next turn."
           ]
@@ -2375,7 +2364,7 @@
           "type": "list",
           "items": [
             "You have resistance to fire and poison damage.",
-            "You gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+            "You gain a bite attack as a natural weapon that uses your Strength modifier. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier."
           ]
         }
       ],
@@ -2443,7 +2432,7 @@
           "type": "list",
           "items": [
             "{@b Orc Rage.} You can spend a bonus action on your turn to Rage which follows the same rules as Barbarian Rage and gains benefits from levels in the Barbarian class. When you enter a Rage using this ability, you suffer a level of exhaustion when the Rage ends.",
-            "{@b Aggressive Charge.} When you use your Aggressive racial trait and move at least 20 feet in a straight line on your turn, you may make a melee weapon attack or take a shove action. Additionally, your aggressive trait gives you 10 more feet of additional movement."
+            "{@b Aggressive Charge.} When you use your Aggressive racial trait and move at least 20 feet in a straight line on your turn, you may make a melee weapon attack against a target within your reach or attempt to shove an enemy creature within 5 feet of you. Additionally, when you use your bonus action to dash using the Aggressive trait, you gain additional movement equal to your speed plus 10 feet."
           ]
         }
       ]
@@ -2555,7 +2544,7 @@
           "type": "list",
           "items": [
             "{@b Superior Grace.} You gain expertise in Dexterity (Acrobatics) checks.",
-            "{@b Superior Speed.} Your walking speed increases by 5 additional feet. While shifted, your walking speed increases an additional 5 feet (at this point a standard character with 30 feet base walking speed now has 50 feet walking speed), you may Dash as a bonus action, and can now move up to half your movement speed if an enemy ends its turn within 5 feet of you. As normal, this movement does not incur opportunity attacks."
+            "{@b Superior Speed.} Your walking speed increases by 5 additional feet. While shifted, your walking speed increases by 15 feet rather than 10, you may Dash as a bonus action, and can now move up to half your movement speed if an enemy ends its turn within 5 feet of you. Due to the dizzying speed, if more than 1 creature would make an opportunity attack due to this movement, instead only 1 may make an opportunity attack."
           ]
         }
       ],
@@ -2581,10 +2570,9 @@
         "You are an exceptional hunter even for a Wildhunt shifter. Only the most exceptional of quarries have a chance to escape once you're on their trail. You gain the following benefits:",
         {
           "type": "list",
-          "items": [
-            "{@b Group Tracking.} When you use you Mark the Scent trait, you can mark up 3 creatures instead of 1.",
-            "{@b Natural Vigilence.} You cannot be surprised by wild beasts, monstrosities, or plants. Additionally, while outside of town, you can add your proficiency bonus to initiative rolls.",
-            "{@b Expert Hunter.} While shifted, you gain expertise in Wisdom skill checks in addtion to the usual advantage."
+          "items": [        
+            "{@b Natural Vigilence.} You cannot be surprised by wild beasts, monstrosities, or plants. Additionally, while outside of a town, you can add your proficiency bonus to initiative rolls.",
+            "{@b Expert Hunter.} While shifted, you gain proficiency (if you already proficienct, instead gain expertise) in Wisdom skill checks in addtion to the usual advantage."
           ]
         }
       ],
