@@ -3304,7 +3304,7 @@
           "items": [
             "{@b Iron Fists.} When you hit with an unarmed strike, you can deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike.",
             "{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
-            "{@b Juggernaut.} You gain an additional permanent +1 to your AC, but you have disadvantage on Dexterity saving throws. After finishing a short or long rest you can choose to ignore this feature until you finish your next rest."
+            "{@b Juggernaut.} You gain an additional +1 to your AC, but you have disadvantage on Dexterity saving throws. After finishing a long rest you can choose to ignore the Juggernaut feature until you finish your next rest long rest."
           ]
         }
       ],
@@ -3393,8 +3393,8 @@
         {
           "type": "list",
           "items": [
-            "{@ Potent Venom.} When you make an attack using Charisma, Intelligence, or Dexterity, you may reroll any damage dice that land on 1 and you must use the new number. Your attacks with Charisma, Intelligence, andDexterity are considered critical strikes on a roll of 19 or 20.",
-            "{@ Venomous River.} When you land a critical strike on a creature using Charisma, Intelligence, or Dexterity, the creature must make a saving throw of DC 8 + your proficiency bonus + the modifier you used for the attack. On a failed save, the creature becomes Poisoned and takes {@dice 1d8} Poison damage. This damage increases to {@dice 2d8} at 8th level and to {@dice 3d8} at 15th level. On a successful save, the creature is not Poisoned and takes half the Poison damage"
+            "{@b Potent Venom.} When you make an attack using Charisma, Intelligence, or Dexterity, you may reroll any damage dice that land on 1 and you must use the new roll.",
+            "{@b Venomous River.} When you land a critical strike on a creature using Charisma, Intelligence, or Dexterity, the creature must make a saving throw of DC 8 + your proficiency bonus + the modifier you used for the attack. On a failed save, the creature becomes Poisoned and takes {@dice 1d8} Poison damage. This damage increases to {@dice 2d8} at 8th level and to {@dice 3d8} at 15th level. On a successful save, the creature is not Poisoned and takes half the Poison damage"
           ]
         }
       ]
@@ -3416,8 +3416,8 @@
         {
           "type": "list",
           "items": [
-            "{@ Speedy Slither.} Your walking speed increases by 5 feet.",
-            "{@ Hunting Sprint.} When you sprint, add an additional half of your movement speed (rounded down) to the total speed."
+            "{@b Speedy Slither.} Your walking speed increases by 5 feet.",
+            "{@b Hunting Sprint.} When you dash, add an additional half of your movement speed (rounded down) to the total speed."
           ]
         }
       ],
