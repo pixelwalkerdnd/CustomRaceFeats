@@ -1535,6 +1535,39 @@
       ]
     },
     {
+      "name": "Strong Elven Blood",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "Half Elf"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "The elven blood that flows through your veins is potent. Your elvish characterstics are so prominent that some laymen might even mistake you for an elf. You gain the following benefit:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Ancestral Blood.} Choose one racial trait from the race of Elves you descend from. You know have that racial trait as well."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
       "name": "Brutish Skill",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
