@@ -1260,7 +1260,7 @@
         {
           "type": "list",
           "items": [
-            "You may use your action to climb a tree and move from it to another tree within 50 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement (10 feet of movement total). If you have no movement left, you appear within 5 feet of the tree you entered. You can use this transportation ability twice, regaining expended uses on a short or long rest."
+            "You may use your action to climb a tree and move from it to another tree within 50 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You appear in a spot of your choice within 5 feet of the destination tree. You can use this transportation ability twice, regaining expended uses on a short or long rest."
           ]
         }
       ]
@@ -1278,11 +1278,11 @@
         }
       ],
       "entries": [
-        "You may use your action to transform into the shape of a mushroom, a small shrub or a bright wooden figurine of a gnome. While in this form you cannot speak or perform any actions, and your speed becomes 0. You gain advantage on stealth checks made to hide in natural terrain while in this form. You can end this effect as a reaction."
+        "You may use your action to transform into the shape of a mushroom, a small shrub or a bright wooden figurine of a gnome. While in this form you cannot speak or perform any actions, and your speed becomes 0. You are considered Heavily Obscured while in natural terrain and in this form. In non-natural terrian (cities, man-made dungeons etc) you instead have advantage on Stealth checks. You can end this effect as a bonus action."
       ]
     },
     {
-      "name": "Jewelcraft",
+      "name": "Gnomish Engineering",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -1294,7 +1294,15 @@
         }
       ],
       "entries": [
-        "You gain proficiency in jeweler's tools. When you are working with jeweler's tools you can work twice as quickly on nonmagical items. In addition, you are able to craft common and uncommon magic items that are amulets, beads, eyes, gems, rings, or necklaces. Common magic items require 50 gp of raw materials (or more depending on GM discretion), 1 exotic material, and take 8 hours to craft. Uncommon magic items require 200 gp of raw materials, 2 exotic materials and 2 workweeks to craft. You may have up to three magic items you have crafted using this trait at one time. You can dissassemble a magic item you have crafted using this trait to salvage raw materials worth half its crafting price. Disassembling a magic item you have crafted in this way takes 8 hours."
+        "Your tinkered gnomish inventions go beyond their usual capabilites.",
+        {
+          "type": "list",
+          "items": [
+            "{@b Clockwork Bomb. } When you construct a Clockwork Toy, you can rig it to explode. As a bonus action, you can set off one of these explosive devices which deal 1d4 fire damage in a 5 foot radius. Addtionally, your mastery of engineering allows you to precisely control the movement of your clockwork toys. As a bonus action, you can direct any and all clockwork toys to move 5 feet in any direction.",
+            "{@b Fire Breather. } Your fire starter's flames last indefinitely. While activated, it sheds bright light in a 10 foot radius and dim light for additional 10 feet. Additionally, flames set by your fire starters never extinguish due to running out fuel. They can still be extinguished by other conventional means (patting them out, water, etc).",
+            "{@b Lullaby. } You can set up your music boxes to play very effective lullabys. If you choose to do so when creating a music box, any creature who listens to the entirety of the song played by one of your music boxes must succeed a DC 12 Wisdom saving throw or fall asleep."
+          ]
+        }
       ]
     },
     {
