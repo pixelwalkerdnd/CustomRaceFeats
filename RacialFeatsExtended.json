@@ -1547,11 +1547,11 @@
         }
       ],
       "entries": [
-        "The mix of your human ingenuity and savage orc strength makes your combat techniques more effective. You gain the following benefit:",
+        "The mix of your human ingenuity and savage orc strength makes even your glancing blows hurt like hell. You gain the following benefit:",
         {
           "type": "list",
           "items": [
-            "{@b Unrefined Prowess.} When you deal damage with a melee weapon, you can add your proficiency bonus to the damage roll."
+            "{@b Unrefined Prowess.} When you roll a natural 1 on an attack roll with a weapon, you can reroll that attack and must use the new roll. You can use this feature a number of times equal to your proficiency bonus."
           ]
         }
       ]
@@ -1641,7 +1641,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Commanding Officer.} As an action, you may have a single ally within 60 feet take the dodge action, disengage action, attack action, or move up to their movement speed."
+            "{@b Commanding Officer.} As an action, you may have a single ally within 60 feet take the dodge action, disengage action, attack action, or move up to their movement speed. Until the beginning of your next turn, you gain +2 AC."
           ]
         }
       ],
@@ -1674,7 +1674,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Heroic Sacrifice.} If you are dropped down to 0 hitpoints, you may immediately take a turn. During this turn you may move closer to the creature that dropped you to 0 hit points, you may use a bonus action to Dash, you may take the Attack action against the creature that dropped you to 0 hitpoints, you may cast a spell that is a spell attack, and you can use any class abilities that target either yourself or the creature that dropped you 0 hit points. Any attack or damaging spell you use on this turn automatically crits. At the end of your turn, you fall unconscious, fail two death saving throws automatically, and must immediately make a death saving throw with disadvantage. This ability cannot be used again.",
+            "{@b Heroic Sacrifice.} If you are dropped down to 0 hitpoints, you may immediately take a turn. All attack rolls that hit become critical hits and any damage done by a spell requiring a saving throw is doubled. At the end of your turn, you fall unconscious, fail two death saving throws automatically, and must immediately make a death saving throw with disadvantage. This ability cannot be used again.",
             "{@b Heroic Triumph.} If you survive making a Heroic Sacrifice, you immediately recieve an Ability Score Improvement and feat of your choice."
           ]
         }
