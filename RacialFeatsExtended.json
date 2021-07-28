@@ -2951,7 +2951,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Spiked Carapace.} As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal {@dice 1d6} piercing damage per 5 character levels (to a max of {@dice 4d6} at 20th level) to any creature grappling you or any creature grappled by you.",
+            "{@b Spiked Carapace.} As a bonus action, you can cause small barbs to protrude all over your body. At the start of each of your turns while the barbs are out, you deal {@dice 1d6} piercing damage per 5 character levels (to a max of {@dice 4d6} at 20th level) to any creature grappling you or any creature grappled by you at the start of your turn. The barbs last for 1 minute. Once you use this triat, you cannot do so again until you finish a long rest.",
             "{@b Fiendish Visage.} You gain proficiency in the Intimidation skill. If you're already proficient in it, your proficiency bonus doubles."
           ]
         }
@@ -3020,7 +3020,7 @@
           "type": "list",
           "items": [
             "{@b Hardened Shell.} Your shell grants you an additional natural +1 to your AC. Additionally, whenever a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. Once you use this feature you cannot to so again until you finish a short or long rest.",
-            "{@b Hardened Shell.} Your bite is a natural weapon, with which you can make unarmed strikes as a bonus action. It deals damage equal to 1d6 + your Strength modifier."
+            "{@b Snapping Jaws.} Your bite is a natural weapon which takes a bonus action to use. It deals damage equal to 1d6 + your Strength modifier."
           ]
         }
       ]
@@ -3042,8 +3042,8 @@
         {
           "type": "list",
           "items": [
-            "{@b Warding Sigil.} During a long rest you can spend one hour retracing award for the shield spell on your shell. Once done youcan cast the spell once without expanding a spell slot ormaterial components, once used in this way the wardneeds to be retraced before it can be used again.",
-            "{@b Hardened Mind.} When using your Shell Defense your wards also grantyou advantage on Wisdom and Charisma savingthrows."
+            "{@b Warding Sigil.} During a long rest you can spend one hour tracing a ward for the {@spell shield} spell on your shell. Once done you can cast the spell once without expanding a spell slot o rmaterial components, once used in this way the ward needs to be retraced before it can be used again.",
+            "{@b Hardened Mind.} When using your Shell Defense and the ward is still active, your wards also grant you advantage on saving throws."
           ]
         }
       ]
