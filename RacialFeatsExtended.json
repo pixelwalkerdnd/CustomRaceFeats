@@ -807,7 +807,7 @@
         }
       ],
       "entries": [
-        "Your people are anything but confrontational, but when all else fails, a primal force awakens within you and destruction will be wrough at any cost. As a bonus action, you may enter a Firbolg Rage which lasts up to a minute, until you are unconscious, or until you end it on a subsequent turn as abonus action.. While in this state, you deal double the damage you normally would, but take double damage as well."
+        "Your people are anything but confrontational, but when all else fails, a primal force awakens within you and destruction will be wrought at any cost. As a bonus action, you may enter a Firbolg Rage which lasts up to a minute, until you are unconscious, or until you end it on a subsequent turn as a bonus action. While in this state, you deal double the damage you normally would, but take double damage as well. When the effect ends, you gain 2 points of exhaustion and on your next long rest you must sleep for the duration losing the ability to partake in light activity (such as taking watch). Once you use this feature you may not do so again until you've completed a long rest."
       ]
     },
     {
@@ -823,7 +823,7 @@
         }
       ],
       "entries": [
-        "You find that you are able to draw upon the strength of the land and its natural energies. The land grants you its power so that you may protect it. You learn the {@spell druidcraft} cantrip. When selecting this feat, you also learn one 1st level druid spell of your choice and one 2nd level druid spell of your choice. You always have these spells prepared and do not need to consume material components or spell slots to castthem. You may cast the 1st level spell two times before youmust complete a long rest to recharge your uses of it. The 2nd level spell may only be cast once before you mustcomplete a long rest to recharge its use. Wisdom is your spell casting modifer for this spell (see Druid class for spell DCs)."
+        "You find that you are able to draw upon the strength of the land and its natural energies. The land grants you its power so that you may protect it. You learn the {@spell druidcraft} cantrip. When selecting this feat, you also learn one 1st level druid spell of your choice and one 2nd level druid spell of your choice. You always have these spells prepared and do not need to consume material components or spell slots to castthem. You may cast the 1st level spell two times before you must complete a long rest to recharge your uses of it. The 2nd level spell may only be cast once before you must complete a long rest to recharge its use. Wisdom is your spell casting modifer for this spell."
       ]
     },
     {
