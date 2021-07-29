@@ -72,7 +72,7 @@
           "type": "list",
           "items": [
             "{@b Keen Senses.} You gain proficiency with the Perception skill if you're not already proficient. Additionally, You have advantage on Wisdom (Perception) checks that rely on hearing or sight.",
-            "{@b Quick Glance.} You can use the Search action as a free action."
+            "{@b Quick Glance.} You can use the Search action as a bonus action."
           ]
         }
       ],
