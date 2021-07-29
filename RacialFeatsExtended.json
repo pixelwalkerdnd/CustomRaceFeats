@@ -301,7 +301,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Heart of Hruggek.} You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
+            "{@b Heart of Hruggek.} You have advantage on saving throws against being charmed, frightened, paralyzed, stunned, or put to sleep."
           ]
         }
       ],
@@ -334,7 +334,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Heavy Blow.} Once per turn you can declare an attack to be a Heavy Blow. You can decalre this after an attack hits. The target creature takes an additional weapon damage equal to 1d4 plus half Strength modifier (rounded up) and must succeed in a Strength (Athletics) or Dexterity (Acrobatics) check against your attack roll or be knocked prone. You may use this feature a number of times equal to your Strength modifier (minimum of 1) before needing to complete a long rest to recharge all expended uses."
+            "{@b Heavy Blow.} Once per turn you can declare a melee attack to be a Heavy Blow. You can decalre this after an attack hits. The target creature takes an additional weapon damage equal to 1d4 plus half Strength modifier (rounded up) and must succeed in a Strength (Athletics) or Dexterity (Acrobatics) check against your attack roll or be knocked prone. You may use this feature a number of times equal to your Strength modifier (minimum of 1) before needing to complete a long rest to recharge all expended uses."
           ]
         }
       ],
@@ -711,7 +711,7 @@
         {
           "type": "list",
           "items": [
-            "{@b Improved Fey Step.} You can use your Fey Step feature twice before needing torest.",
+            "{@b Improved Fey Step.} You can use your Fey Step feature twice before needing to rest.",
             "{@b Short Seasons.} You can change your season during a short rest."
           ]
         }
@@ -1120,7 +1120,7 @@
           "rows": [
             [
               "{@b Air.}",
-              "As a bonus action, you lighten your step with a touch of wind. Your speed is doubled until the end of your turn."
+              "As a bonus action, you lighten your step with a touch of wind. Your speed is doubled until the end of your next turn."
             ],
             [
               "{@b Earth.}",
@@ -1260,7 +1260,7 @@
         {
           "type": "list",
           "items": [
-            "You may use your action to climb a tree and move from it to another tree within 50 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You appear in a spot of your choice within 5 feet of the destination tree. You can use this transportation ability twice, regaining expended uses on a short or long rest."
+            "You may use your action to step into a tree and move from it to another tree within 50 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You appear in a spot of your choice within 5 feet of the destination tree. You can use this transportation ability twice, regaining expended uses on a short or long rest."
           ]
         }
       ]
@@ -1306,7 +1306,7 @@
       ]
     },
     {
-      "name": "Like a Boss",
+      "name": "Group Ambusher",
       "source": "RacialFeatsExpandedFedor",
       "prerequisite": [
         {
@@ -1318,11 +1318,12 @@
         }
       ],
       "entries": [
-        "You are accustomed to using others as a distraction to avoid being attacked. You gain the following benefits:",
+        "You have been a part of or even lead goblin ambushes in your time. You know the value attacking first. You gain the following benefits:",
         {
           "type": "list",
           "items": [
-            "{@b Goblin Tactics.} When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can't do so again until you finish a short or long rest."
+            "{@b Quick Reflexes.} You can add your proficiency bonus to Initiative rolls.",
+            "{@b Group Stealth.} When you and an allied creature of your choice within 30 feet of you both make a Dexterity (Stealth) check, the chosen ally can elect to use your total as their own. You and the chosen ally must not have disadvantage on the stealth roll to use this feature. The number of creatures that can benefit from this ability increase as you level to 2 allies at level 5, 3 allies at level 11, and 4 allies at level 17. Once you use this feature, you cannot do so again until you finish a short or long rest."
           ]
         }
       ],
@@ -1699,6 +1700,181 @@
             "{@b Heroic Sacrifice.} If you are dropped down to 0 hitpoints, you may immediately take a turn. All attack rolls that hit become critical hits and any damage done by a spell requiring a saving throw is doubled. At the end of your turn, you fall unconscious, fail two death saving throws automatically, and must immediately make a death saving throw with disadvantage. This ability cannot be used again.",
             "{@b Heroic Triumph.} If you survive making a Heroic Sacrifice, you immediately recieve an Ability Score Improvement and feat of your choice."
           ]
+        }
+      ]
+    },
+    {
+      "name": "Frontier Culture",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "human"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You were brought up in a settlement on the outskirts of civilization or have spent a good portion of your life there. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency in one of the following skills of your choice: Animal Handling, Perception, Stealth, or Survival.",
+            "You have excellent survival skills. In wilderness where edible plants and wild game are available, you can always find food and water for yourself and up to 3 others.",
+            "Through sounds and gestures, you can communicate simple ideas to Small or smaller beasts."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mariner Culture",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "human"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You're from a seafaring people or have spent a portion of your life on the sea. While the ocean can be a cruel teacher, you have learned your way around a ship and water. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain a swimming speed of 20 feet.",
+            "You gain proficiency in Navigator's Tools and Vehicles (Water).",
+            "You gain proficiency with the heavy crossbow, trident, scimitar, and net"
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Martial Culture",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "human"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You were raised in a military family or were a member of society who valued martial prowess. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency with light armor and shields.",
+            "You gain proficiency with two martial weapons of your choice.",
+            "You can spend up to two additional hours standing watch and still gain the benefits of a long rest."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Learned Culture",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "human"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are from a society that values knowledge above all. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency in one of the following skills of your choice: Arcana, History, Nature, and Religion",
+            "Choose one of your proficiencies in Arcana, History, Nature, or Religion. You proficiency bonus is doubled when using that skill.",
+            "You have advtange on Intelligence (Investigation) checks made to find places of research or study."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Religious Culture",
+      "source": "RacialFeatsExpandedFedor",
+      "prerequisite": [
+        {
+          "race": [
+            {
+              "name": "human"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You are from a society that devoutly worships one of the many gods or goddesses of the realm. You have gained the skills necessary to continue your worship and spread the holy word of your diety, whether you still believe in them or not. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Medicine, and Persuasion.",
+            "Choose one of your proficiencies in Insight, Intimidation, Medicine, and Persuasion. You proficiency bonus is doubled when using that skill.",
+            "In places that have a house of worship for the diety associated with you, the house of worship will provide free shelter to you and any companions."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
         }
       ]
     },
