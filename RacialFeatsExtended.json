@@ -11,7 +11,7 @@
         "convertedBy": [
           "Senort11"
         ],
-        "version": "1.0.0",
+        "version": "2.0.0",
         "url": "https://www.dmsguild.com/product/314753/Racial-Feats-Expanded",
         "targetSchema": "1.1.2"
       }
@@ -656,7 +656,7 @@
           "items": [
             "{@b Blunt the Knives.} You are proficient with improvised weapons.",
             "{@b Smash the Forks.} While you are wielding a weapon that doesn't have the Heavy property, it gains the Thrown property (if it doesn't already have it) with a range of 20/60 ft.",
-            "{@ Experience Bar Hopper} You have advantage on Intelligence (History) checks to recall information about taverns, inns, and breweries. You have advantage on Intelligence (Investigation) checks made to find taverns, inns, and breweries. Additionally, you gain a +2 to Constitution Saving Throws made against the effects of alcoholic intoxication."
+            "{@b Experienced Bar Hopper} You have advantage on Intelligence (History) checks to recall information about taverns, inns, and breweries. You have advantage on Intelligence (Investigation) checks made to find taverns, inns, and breweries. Additionally, you gain a +2 to Constitution Saving Throws made against the effects of alcoholic intoxication."
           ]
         }
       ],
